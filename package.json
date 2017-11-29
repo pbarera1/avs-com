@@ -1,0 +1,44 @@
+{
+  "name": "avs.com",
+  "version": "1.0.0",
+  "description": "AVS main site",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "main": "main.js",
+  "babel": {
+    "presets": ["es2015"]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "es6": "./node_modules/.bin/babel components -d build",
+    "scss": "node-sass --watch components -o build",
+    "serve": "browser-sync start --proxy 'localhost:8000' --serveStatic './' --files '*.php build/*.css, build/js/*.js' --index './index.php'",
+    "uglify": "uglifyjs build/**/*.js -o main.js",
+    "autoprefixer": "postcss [map: false] -u autoprefixer -r build/main.css",
+    "build:css": "node-sass components/main.scss build/main.css && npm run autoprefixer && cp build/main.css main.css",
+    "watch:css": "onchange 'components/**/*.scss' 'layouts/**/*.scss' -- npm run build:css",
+    "build:js": "npm run es6 && npm run uglify",
+    "watch:js": "onchange 'components/**/*.js' 'layouts/**/*.js' -- npm run build:js",
+    "watch": "parallelshell 'npm run watch:css' 'npm run watch:js'",
+    "prebuild": "echo 'runnning build process...'",
+    "build": "npm run build:js && npm run build:css rimraf build/*",
+    "prestart": "echo 'starting simple PHP server, please open new tabs for other build commands'",
+    "start": "php -S localhost:8000"
+  },
+  "author": "Phil Barera",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "node-sass": "^4.5.3",
+    "onchange": "^3.2.1",
+    "parallelshell": "^3.0.2",
+    "postcss-cli": "^4.1.1",
+    "rimraf": "^2.6.2",
+    "uglify-js": "^3.1.6"
+  }
+}

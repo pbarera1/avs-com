@@ -1,0 +1,54 @@
+// body
+$container-width: 1600px;
+$nav-height: 70px;
+
+//colors
+$green-1: #82DDC9;
+$green-2: #52C5AB;
+$green-3: #31B094;
+$green-4: #14A181;
+$green-5: #048165;
+
+$blue-1: #8BAEDE;
+$blue-2: #5D8AC7;
+$blue-3: #3D6FB3;
+$blue-4: #2159A5;
+$blue-5: #0F4084;
+
+$red-3: #FF8D47;
+$red-4: #FF8D47; //good one
+
+$orange-1: #FAA71E;
+$orange-2: #FFBA47;
+$orange-3: #FAA71E;
+$orange-4: #F0A01A;
+$orange-5: #BB7809;
+
+$gray-475: #949494;
+$gray-600: #363636;
+$gray-700: #222222;
+
+
+//fonts
+$title: 'Oswald', sans-serif; //Montserrat or Raleway (skinny), Poppins detox titles
+$copy: 'Lato', sans-serif;
+
+/*********************
+BREAKPOINTS
+*********************/
+
+ @mixin bp($point) {
+   @if $point == lg {
+     @media (min-width: 1200px) { @content ; }
+  }
+    @else if $point == md {
+     @media (min-width: 768px) { @content ; }
+  }
+   @else if $point == sm {
+     @media (min-width: 480px)  { @content ; }
+  }
+  @else if $point == xs {
+     @media (max-width: 320px)  { @content ; }
+
+  }
+}

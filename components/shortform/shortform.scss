@@ -1,0 +1,135 @@
+.shortform {
+	background-color: $blue-5;
+	background: linear-gradient(to top, $blue-5 , $blue-3);
+	padding: 32px 16px;
+	display: flex;
+	flex-flow: column wrap;
+
+	@include bp(md) {
+		flex-flow: row wrap;
+	}
+}
+
+.shortform--contact-page {
+	flex-flow: column wrap;
+	padding: 32px;
+
+	.shortform__input-container {
+		max-width: none;
+		margin: 0 0 16px 0;
+	}
+
+	.shortform__text {
+		text-align: center;
+	}
+}
+
+.shortform__text {
+	color: #fff;
+	font-size: 20px;
+	flex-basis: 100%;
+	padding-bottom: 16px;
+}
+
+.shortform__input-container {
+	position: relative;
+	margin: 0 16px 16px 0;
+	flex-basis: 100%;
+
+	@include bp(md) {
+		margin: 0 16px 0 0;
+		flex-basis: 33%;
+		max-width: 420px;
+	}
+}
+
+.shortform__input {
+	background-color: $blue-3;
+	border-radius: 3px;
+	padding: 16px;
+	color: #fff;
+	border: 1px solid #fff;
+	color: #fff;
+	width: 100%;
+
+	&::placeholder {
+		color: #f5f5f5;
+	}
+
+	&.valid {
+		border-color: #57a07f;
+		background-image: url("data:image/svg+xml,%3Csvg width='45px' height='34px' viewBox='0 0 45 34' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg transform='translate%28-56.000000, -59.000000%29' fill='%232EEC96'%3E%3Cpolygon points='70.1468531 85.8671329 97.013986 59 100.58042 62.5664336 70.1468531 93 56 78.8531469 59.5664336 75.2867133'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+		background-repeat: no-repeat;
+		background-position: 100% 50%;
+	}
+
+	&.invalid {
+		border-color: red;
+		background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg transform='translate%28-128.000000, -59.000000%29' fill='%23F44336'%3E%3Cpolygon points='157.848404 61.9920213 145.980053 73.8603723 157.848404 85.7287234 154.856383 88.7207447 142.988032 76.8523936 131.119681 88.7207447 128.12766 85.7287234 139.996011 73.8603723 128.12766 61.9920213 131.119681 59 142.988032 70.8683511 154.856383 59'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+		background-repeat: no-repeat;
+	}
+
+	// &:required {
+	// 	&::before {
+	// 		content: '*Required';
+	// 	}
+	// }
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: darken($blue-3, 3%);
+	}
+
+
+	&:focus {
+		padding: 24px 16px 8px;
+		transition: padding .2s ease-in;
+
+		~.shortform__label {
+			transform: translateY(-8px);
+			font-size: 10px;
+			transition: transform .2s ease-in;
+		}
+	}
+
+}
+
+.shortform__text-area {
+	background-color: $blue-3;
+	border-radius: 3px;
+	padding: 16px;
+	color: #fff;
+	border: 1px solid #fff;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 16px;
+
+	&::placeholder {
+		color: #f5f5f5;
+	}
+}
+
+.shortform__label {
+	position: absolute;
+	font-size: 16px;
+	color: #fff;
+	top: 16px;
+	left: 16px;
+	margin-bottom: 0;
+	transition: all .2s ease-in;
+}
+
+.shortform__submit {
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 16px;
+	color: $blue-5;
+	text-align: center;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: darken(#fff, 3%);
+	}
+}
