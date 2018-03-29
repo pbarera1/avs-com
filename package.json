@@ -4,14 +4,13 @@
   "description": "AVS main site",
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repository.git"
+    "url": "git://github.com/pbarera1/avs-com.git"
   },
   "main": "main.js",
   "babel": {
     "presets": ["es2015"]
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "es6": "./node_modules/.bin/babel components -d build",
     "scss": "node-sass --watch components -o build",
     "serve": "browser-sync start --proxy 'localhost:8000' --serveStatic './' --files '*.php build/*.css, build/js/*.js' --index './index.php'",
@@ -23,9 +22,9 @@
     "watch:js": "onchange 'components/**/*.js' 'layouts/**/*.js' -- npm run build:js",
     "watch": "parallelshell 'npm run watch:css' 'npm run watch:js'",
     "prebuild": "echo 'runnning build process...'",
-    "build": "npm run build:js && npm run build:css rimraf build/*",
+    "build": "rimraf build && npm run build:js && npm run build:css",
     "prestart": "echo 'starting simple PHP server, please open new tabs for other build commands'",
-    "start": "php -S localhost:8000"
+    "start": "php -S localhost:8001 && open http://localhost:8001/"
   },
   "author": "Phil Barera",
   "license": "ISC",

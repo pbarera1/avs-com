@@ -4,76 +4,153 @@
 
 		<div class="home__hero-container">
 
-		<?php render('/components/rotate-text/rotate-text.php'); ?>
+			<h1 class="home__hero-title">
+				Think out of the box. Think AVS.
+			</h1>
 
 			<div class="home__hero-text">
-				AVS is distinguished from a crowded market of data visualization software vendors by virtue of its “data first” approach and ability to render highly customized and user-friendly graphics from big data, extreme sources and sophisticated scenarios.
-				<br/><br/>
-				Our comprehensive range of solution offerings and long history of product innovation and industry leadership help to separate us from competitors.
+				Correlating decision making data since 1991
 			</div>
+
+			<?php render('/components/btn/btn.php', [
+				'text' => 'Discover How',
+				'link' => '#contact-form'
+			]); ?>
+
 		</div>
 
 	</div>
 
-	<div>
-		<h1>Why Us?</h1>
-		<ul>
-			<li>
-				<div class="usp__title">
-					Solutions, not just tools
-				</div>
-				AVS does not offer you tools with limited charting abilities. We integrate our API to design for you an efficient deployable system that caters to your problems. We build solutions for you.
-			</li>
-			<li>
-				<div class="usp__title">
-					Customized for you
-				</div>
-				We build our solutions around your data flow systems and existing setups. We do not provide you the next best off-the-shelf-graph-and-chart product.
-In fact, we are as bespoke as it can get.
-			</li>
-			<li>
-				<div class="usp__title">
-					Iterate on the go
-				</div>
-				AVS, with its tools, fits in perfectly into an Agile business environment. You do not get a restricted product but an iterative and interactive solution that works on the fly.
-			</li>
-			<li>
-				<div class="usp__title">
-					Professional Services
-				</div>
-				Our assistance goes ahead of deployment and development. We provide you all the essential consultancy and integrate our products and services with your current systems.
-			</li>
-		</ul>
-	</div>
+	<div class="home__usp">
 
-	<div class="customers">
-		<h1 class="customers__title">Trusted by leading Fortune 500 Companies</h1>
-		<div>Over 20 years experience in data visualization</div>
-		<div class="customers__container">
-			<img src="/img/customers-1.png" alt="" class="customers__img">
-			<img src="/img/customers-2.png" alt="" class="customers__img">
-			<img src="/img/customers-3.png" alt="" class="customers__img">
+		<h1 class="home__usp-title">
+			Best of Both Worlds - Data Management
+		</h1>
+
+		<div class="home__usp-container">
+
+			<div class="home__usp-half">
+
+				<div class="home__usp-subheader">
+					We integrate with your existing solutions extracting the best information from each.
+				</div>
+
+				<div class="home__usp-text">
+					AVS solutions enable you to integrate data from many different sources through an in-memory process that enables full data exploration. We can ingest any data from any system at high speed and correlate information ﻿in﻿ real time. Our solutions are agnostic to data, agnostic to platform, and agnostic to format. As a result, we can integrate the most important information from all your existing solutions into a powerful daily use application that delivers critical decision-making insight in real time.
+				</div>
+
+			</div>
+
+			<div class="home__usp-half">
+
+				<div class="home__usp-subheader">
+					We deliver powerful insight to anyone, anywhere
+				</div>
+
+				<div class="home__usp-text">
+					AVS solutions enable you to define your own business rules, develop and integrate your own models and algorithms, and present your results with your own corporate branding. Our technology allows you to create many views of your data to cater to the workflow of many different groups and departments; from mission critical operators to analysts to executives. And most importantly, you can deliver your results securely to any device, anywhere in the world; we support all deployments in every locale.
+				</div>
+
+			</div>
+
 		</div>
+
+		<?php render('/components/btn/btn.php', [
+			'text' => 'Discover How',
+			'link' => '#contact-form',
+			'modifier' => 'btn--wide'
+		]); ?>
+
 	</div>
 
-	<h1 class="home__prototype-title">Turning Visualization Dreams into Reality</h1>
+	<div class="home__about-us">
+
+		<img class="home__about-us__img" src="/img/avs-logos-1.png" alt="">
+
+		<div class="home__about-us__container">
+
+			<h1 class="home__about-us__title">
+				One Stop Shop
+			</h1>
+
+			<div class="home__about-us__subtitle">
+				Talented Data Engineers improving Daily Business Decisions
+			</div>
+
+			<div class="home__about-us__text">
+				We drive business results across industries using end-to-end approach to data visualization. Our solutions strategically integrate into existing systems by stretching the boundaries of data size, processing speed, rendering quality & scalability. A combination of our data engineering design and our data management & data visualization products, allow you to answer tough questions for both sophisticated and everyday users.
+			</div>
+
+		</div>
+
+	</div>
+
+<!--Trusted by leading Fortune 500 Companies
+Over 20 years experience in data visualization-->
+
 
 	<div class="home__prototype">
 
+		<h1 class="home__prototype-title">
+			Turning Visualization Dreams into Reality
+		</h1>
+
+		<div class="home__prototype-subtitle">
+			Design and Develop your own Workflow
+		</div>
+
+		<div class="home__prototype-text">
+			AVS can help you develop a solution that best suits your end users and improves the efficiency of their day to day performance. Combining data from multiple data sources, reports, and from other parts of the organization can drastically help improve quality and efficiency of daily processes. Why spend 4 hours working on an Excel worksheet when you can spend that same time discussion solutions to problems.
+			<br/><br/>
+			We will work with you to better understand, organize, and present your data into a powerful easy to use application. We will help bring important decision making data to the surface so that you can easily support your decisions or insights. With a click of the button, output your results to be shared with others in your organization.
+		</div>
+
 		<?php
 		render('/components/card/card.php', [
-			'content' => '<img src="/img/prototype.png" alt="">',
-		]); ?>
-
-		<p class="home__prototype-text">AVS takes complex prototypes and turns then into decision making solutions that unleash the power of your data via interactive insights.</p>
-
-		<p class="home__prototype-text">AVS takes complex prototypes and turns then into decision making solutions that unleash the power of your data via interactive insights.</p>
-
-		<?php
-		render('/components/card/card.php', [
-			'content' => '<img src="/img/result.png" alt="">',
+			'content' => '<img src="/img/prototype.png" alt=""><img src="/img/result.png" alt="">',
 		]); ?>
 
 	</div>
+
+
+	<div class="home__engineers">
+
+		<div class="home__engineers__container">
+
+			<h1 class="home__engineers__title">
+				Engineering data insight since 1991
+			</h1>
+
+			<div class="home__engineers__subtitle">
+				Experienced in Every Industry
+			</div>
+
+			<div class="home__engineers__text">
+				AVS has invested over 20 years of research and development into how end users use data (and how software developers develop solutions) so that everyone can make the best possible decision in the least amount of time. Our Professional Services Team works to understands the needs of your end users, the data available to make decisions, and assists in constructing a solution that improves daily workflow and highlights decision making information.
+			</div>
+
+			<?php render('/components/btn/btn.php', [
+				'text' => 'Discover How',
+				'link' => '#contact-form'
+			]); ?>
+
+		</div>
+
+	</div>
+
+	<?php
+	// render('/components/shortform/shortform.php', [
+	// 	'form_fields' => [
+	// 		(object) [
+	// 			'label' => 'name',
+	// 			'name' => 'Name',
+	// 		],
+	// 		(object) [
+	// 			'label' => 'email',
+	// 			'name' => 'Email',
+	// 		],
+	// 	]
+	// ]);
+	?>
 
 </div>

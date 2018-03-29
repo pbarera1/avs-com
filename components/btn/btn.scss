@@ -1,7 +1,7 @@
 .btn {
 	display: inline-block;
-	background-color: $red-4;
-	border: 1px $red-3;
+	background-color: $red-5;
+	border: 1px $red-4;
 	color: #fff;
 	border-radius: 6px;
 	padding: 8px;
@@ -11,10 +11,17 @@
 	&:focus {
 		color: #fff;
 		text-decoration: none;
-		background-color: darken($red-4, 10%);
+		background-color: darken($red-5, 10%);
 	}
 }
 
 .btn--m-left {
 	margin-left: 16px;
+}
+
+.btn--wide {
+	display: block;
+	margin: 3rem auto 0;
+	max-width: 400px;
+	text-align: center;
 }

@@ -14,9 +14,11 @@ $blue-2: #5D8AC7;
 $blue-3: #3D6FB3;
 $blue-4: #2159A5;
 $blue-5: #0F4084;
+$blue-10: #041428;
 
 $red-3: #FF8D47;
 $red-4: #FF8D47; //good one
+$red-5: #ff6d14;
 
 $orange-1: #FAA71E;
 $orange-2: #FFBA47;
@@ -24,13 +26,15 @@ $orange-3: #FAA71E;
 $orange-4: #F0A01A;
 $orange-5: #BB7809;
 
-$gray-475: #949494;
+$gray-300: #e6e6e6;
+$gray-400: #d4d4d4;
+$gray-475: #bababa;
 $gray-600: #363636;
 $gray-700: #222222;
 
 
 //fonts
-$title: 'Oswald', sans-serif; //Montserrat or Raleway (skinny), Poppins detox titles
+$title: 'Poppins', sans-serif; //Montserrat or Raleway (skinny), Poppins detox titles
 $copy: 'Lato', sans-serif;
 
 /*********************
@@ -51,4 +55,27 @@ BREAKPOINTS
      @media (max-width: 320px)  { @content ; }
 
   }
+}
+
+
+/*********************
+Set Fonts
+*********************/
+
+body {
+  font-family: $copy;
+  background-color: #fff;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: $title;
+  color: $gray-400;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 44px;
 }

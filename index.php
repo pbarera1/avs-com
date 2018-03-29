@@ -15,19 +15,6 @@ render('/components/nav/nav.php', [
 
 render('/layouts/home/home.php');
 
-render('/components/shortform/shortform.php', [
-	'form_fields' => [
-		(object) [
-			'label' => 'name',
-			'name' => 'Name',
-		],
-		(object) [
-			'label' => 'email',
-			'name' => 'Email',
-		],
-	]
-]);
-
 render('/components/footer/footer.php');
 
 render('/components/foot/foot.php');

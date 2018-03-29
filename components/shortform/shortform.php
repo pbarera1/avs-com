@@ -18,10 +18,10 @@
 	<?php endif; ?>
 
 	<div
-		class="g-recaptcha"
+		<!--class="g-recaptcha"
 		data-sitekey="6Ld_szkUAAAAAL3BT4YX_mfHj048kXgO7pDwsyHv"
 		data-callback="OnSubmitForm"
-		data-size="invisible"
+		data-size="invisible"-->
 	>
 	</div>
 
