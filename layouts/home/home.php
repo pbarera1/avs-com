@@ -32,7 +32,7 @@
 			<div class="home__usp-half">
 
 				<div class="home__usp-subheader">
-					We integrate with your existing solutions extracting the best information from each.
+					Integrate with your existing solutions extracting the best information from each.
 				</div>
 
 				<div class="home__usp-text">
@@ -44,11 +44,11 @@
 			<div class="home__usp-half">
 
 				<div class="home__usp-subheader">
-					We deliver powerful insight to anyone, anywhere
+					Deliver powerful insight to anyone, anywhere
 				</div>
 
 				<div class="home__usp-text">
-					AVS solutions enable you to define your own business rules, develop and integrate your own models and algorithms, and present your results with your own corporate branding. Our technology allows you to create many views of your data to cater to the workflow of many different groups and departments; from mission critical operators to analysts to executives. And most importantly, you can deliver your results securely to any device, anywhere in the world; we support all deployments in every locale.
+					Define your own business rules, develop and integrate your own models and algorithms, and present your results with your own corporate branding. Our technology allows you to create many views of your data to cater to the workflow of many different groups and departments; from mission critical operators to analysts to executives. And most importantly, you can deliver your results securely to any device, anywhere in the world; we support all deployments in every locale.
 				</div>
 
 			</div>
@@ -112,6 +112,52 @@ Over 20 years experience in data visualization-->
 
 	</div>
 
+	<img src="/img/wave.svg" class="wave"/>
+
+	<div class="home__products">
+
+		<div class="home__products__container">
+
+			<h1 class="home__engineers__title">
+				OpenViz
+			</h1>
+
+			<div class="home__products__subtitle">
+				A powerful data management and data visualization API
+			</div>
+
+			<div class="home__products__text">
+				The OpenViz API consists of a flexible data management pipeline that feeds many millions of in-memory data points into a high performance rendering engine for scalable graphics generation. OpenViz allows software makers to create unique look-and-feel branding for any data visualization and seamlessly weave them into long lifecycle multi-product strategies using agile development.
+			</div>
+
+			<?php render('/components/btn/btn.php', [
+				'text' => 'Discover How',
+				'link' => '#contact-form'
+			]); ?>
+
+		</div>
+
+		<div class="home__products__container">
+
+			<h1 class="home__engineers__title">
+				AVS/Express
+			</h1>
+
+			<div class="home__products__subtitle">
+				Visually connect modules to rapidly discover insight into your data
+			</div>
+
+			<div class="home__products__text">
+				AVS/Express is a comprehensive and versatile data visualization tool for both non-programmers and experienced developers. Parallel data processing for rapid data analysis, combined with rich visualization techniques and an intuitive graphical application development environment, allow for quick exploration of big data. A powerful  graphics engine has been designed to handle the most data intensive, interactive graphics applications using multipipe rendering and immersive virtual reality environments.
+			</div>
+
+			<?php render('/components/btn/btn.php', [
+				'text' => 'Discover How',
+				'link' => '#contact-form'
+			]); ?>
+
+		</div>
+	</div>
 
 	<div class="home__engineers">
 
@@ -137,6 +183,60 @@ Over 20 years experience in data visualization-->
 		</div>
 
 	</div>
+
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="/img/slider/openviz-1.png" alt="">
+				<div>Slide 1</div>
+			</div>
+			<div class="swiper-slide">
+				<img src="/img/slider/openviz-2.png" alt="">
+				<div>Slide 2</div>
+			</div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	</div>
+
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="/img/slider/express-1.gif" alt="">
+				<div>Slide 1</div>
+			</div>
+			<div class="swiper-slide">
+				<img src="/img/slider/express-2.gif" alt="">
+				<div>Slide 2</div>
+			</div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	</div>
+
+<!--slider css and js-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.min.css" integrity="sha256-fUHMgGeFAqrzGB8vAPRlU3c/wNqTq5KQ8toq5kcg8fc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.min.js" integrity="sha256-jpZY8fZVCLdzzabx/y9dk2r4UjEMPKjwdsjxJWbhtCE=" crossorigin="anonymous"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+	var swiper = new Swiper('.swiper-container', {
+		pagination: {
+			el: '.swiper-pagination',
+			type: 'progressbar',
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
+  </script>
 
 	<?php
 	// render('/components/shortform/shortform.php', [
