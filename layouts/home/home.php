@@ -5,7 +5,7 @@
 		<div class="home__hero-container">
 
 			<h1 class="home__hero-title">
-				Think outside the box. Think AVS.
+				Think outside of the box. Think AVS.
 			</h1>
 
 			<div class="home__hero-text">
