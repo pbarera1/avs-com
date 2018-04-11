@@ -28,10 +28,8 @@ if (! ini_get('date.timezone')) {
 				<?php
 				$footer_links = [
 					'Solutions' => '/solutions',
-					'OpenViz' => '/openviz',
 					'Support' => '/support',
-					'About' => '/about',
-					'Contact' => '/contact',
+					'Contact Us' => '/contact-us',
 				];
 				foreach ($footer_links as $text => $link) : ?>
 				<li class="footer__list-item">

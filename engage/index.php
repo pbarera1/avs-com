@@ -7,9 +7,8 @@ render('/components/head/head.php');
 render('/components/nav/nav.php', [
 	items => [
 		'Solutions' => '/solutions',
-		'OpenViz' => '/openviz',
 		'Support' => '/support',
-		'About' => '/about',
+		'Contact Us' => '/contact-us',
 	],
 ]);
 

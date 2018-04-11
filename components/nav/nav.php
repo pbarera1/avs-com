@@ -19,8 +19,8 @@
 		</ul>
 
 		<?php render('/components/btn/btn.php', [
-			'text' => 'Contact Us',
-			'link' => '/contact',
+			'text' => 'Request Demo',
+			'link' => '/engage',
 			'modifier' => 'show-md btn--m-left',
 		]); ?>
 
@@ -29,4 +29,3 @@
 	</div>
 
 </nav>
-<!--<div class="nav__holder"></div>-->
