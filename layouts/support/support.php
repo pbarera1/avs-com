@@ -55,4 +55,223 @@
 
 	</div>
 
+	<div class="support__versions">
+
+		<h2>
+			Operating Systems & Supported Product Versions
+		</h2>
+
+		<div class="support__versions__container">
+
+			<div class="tab">
+				<button id="defaultOpen" class="tablinks" onclick="openCity(event, 'Openviz')">Openviz</button>
+				<button class="tablinks" onclick="openCity(event, 'Express')">AVS/Express</button>
+				<button class="tablinks" onclick="openCity(event, 'Toolmaster')">Toolmaster/Gsharp</button>
+				<button class="tablinks" onclick="openCity(event, 'AVS5')">AVS5</button>
+			</div>
+
+			<div id="Openviz" class="tabcontent">
+				<h4>
+					Version 3.2 – Alpha
+				</h4>
+				<div>
+					<strong>.NET</strong><br/>
+					Development: Visual Studio 2010+<br/>
+					Deployment: Windows
+					<br/><br/>
+					<strong>Java</strong><br/>
+					Any machine with a Sun Java Virtual Machine (Version 1.4 or higher)<br/>
+					OpenViz supports OpenGL Hardware Acceleration using JOGL.<br/>
+					Supported platforms include:<br/>
+					Windows, Linux i586 & AMD64, Mac OS X Universal, Solaris SPARC
+					<br/><br/>
+					OpenViz is shipped with JOGL JSR231 Release 1.1.1-final version of JOGL
+				</div>
+				<h4>
+					Version 3.1
+				</h4>
+				<div>
+					<strong>.NET</strong><br/>
+					Development: Visual Studio 2010+<br/>
+					Deployment: Windows
+					<br/><br/>
+					<strong>Java</strong><br/>
+					Any machine with a Sun Java Virtual Machine (Version 1.4 or higher)<br/>
+					OpenViz supports OpenGL Hardware Acceleration using JOGL.<br/>
+					Supported platforms include:<br/>
+					Windows, Linux i586 & AMD64, Mac OS X Universal, Solaris SPARC
+					<br/><br/>
+					OpenViz is shipped with JOGL JSR231 Release 1.1.1-final version of JOGL
+					<br/><br/>
+					<strong>COM</strong><br/>
+					Development: Visual Studio 2010+<br/>
+					Deployment: Windows
+				</div>
+				<h4>
+					Version 3.0 - Version 2.10.2
+				</h4>
+				<div>
+					<strong>COM / .NET Interops</strong><br/>
+					Development: Visual Studio 2010+<br/>
+					Deployment: Windows
+					<br/><br/>
+					<strong>Java</strong><br/>
+					Any machine with a Sun Java Virtual Machine (Version 1.4 or higher)<br/>
+					OpenViz supports OpenGL Hardware Acceleration using JOGL.<br/>
+					Supported platforms include:<br/>
+					Windows, Linux i586 & AMD64, Mac OS X Universal, Solaris SPARC
+					<br/><br/>
+					OpenViz is shipped with JOGL JSR231 Release 1.1.1-final version of JOGL
+				</div>
+			</div>
+
+			<div id="Express" class="tabcontent">
+				Express
+			</div>
+
+			<div id="Toolmaster" class="tabcontent">
+				<h4>Supported Versions:</h4>
+				Versions: 8.1, 8.0, 7.5.4 & 3.5.4
+				<br/><br/>
+				Latest Version: 8.1
+
+				<table>
+					<tbody>
+					<tr>
+					<td>Platform</td>
+					<td>Addressing</td>
+					<td>Operating System</td>
+					<td>X11</td>
+					<td>Motif</td>
+					<td>ANSI C</td>
+					<td>FORTRAN</td>
+					</tr>
+					<tr>
+					<td>x86 PC</td>
+					<td>32</td>
+					<td>Windows Vista,7, 8, 8.1, 10</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>Visual Studio 2015</td>
+					<td>Intel 16.0</td>
+					</tr>
+					<tr>
+					<td>x86-64 PC</td>
+					<td>64</td>
+					<td>Windows Vista,7, 8, 8.1, 10 x64</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>Visual Studio 2015</td>
+					<td>Intel 16.0</td>
+					</tr>
+					<tr>
+					<td>x86 PC</td>
+					<td>32</td>
+					<td>Red Hat Linux EL 6</td>
+					<td>R7</td>
+					<td>2.3</td>
+					<td>gcc 4.4</td>
+					<td>gfortran 4.4</td>
+					</tr>
+					<tr>
+					<td>x86-64 PC</td>
+					<td>64</td>
+					<td>Red Hat Linux EL 7</td>
+					<td>R7</td>
+					<td>2.3</td>
+					<td>gcc 4.8</td>
+					<td>gfortran 4.8</td>
+					</tr>
+					<tr>
+					<td>Mac</td>
+					<td>64</td>
+					<td>Mac OS X 10.9, 10.10, 10.11</td>
+					<td>R6</td>
+					<td>2.3</td>
+					<td>gcc 4.2 (Xcode)</td>
+					<td>gfortran 5.2 (Fink)</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="AVS5" class="tabcontent">
+				<h4>Supported Versions:</h4>
+				Versions: 5.8
+				<br/><br/>
+				Latest Version: 5.8
+
+				<h4>Linux</h4>
+				<table>
+				<tbody>
+				<tr>
+				<td>Operating System</td>
+				<td>Graphics Library</td>
+				<td>Compilers</td>
+				</tr>
+				<tr>
+				<td>RHEL5 i686</td>
+				<td>AVS is dynamically linked to the Mesa OpenGL libraries provided with<br>
+				RHEL5</td>
+				<td>C/C++ gcc (4.1)<br>
+				Fortran gfortran (4.1)</td>
+				</tr>
+				<tr>
+				<td>RHEL5 x86_64</td>
+				<td>AVS is dynamically linked to the Mesa OpenGL libraries provided with<br>
+				RHEL5</td>
+				<td>C/C++ gcc (4.1)<br>
+				Fortran gfortran (4.1)</td>
+				<td></td>
+				</tr>
+				</tbody>
+				</table>
+
+				<h4>OSX</h4>
+				<table>
+				<tbody>
+				<tr>
+				<td>Operating System</td>
+				<td>Graphics Library</td>
+				<td>Compilers</td>
+				</tr>
+				<tr>
+				<td width="185">Intel-based, Mac OS X 10.6</td>
+				<td>OpenGL libraries provided with the X11 server</td>
+				<td>C/C++ gcc (4.2)<br>
+				Fortran gfortran (4.4)</td>
+				</tr>
+				</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
 </div>
+
+<script>
+function openCity(evt, cityName) {
+	// Declare all variables
+	var i, tabcontent, tablinks;
+
+	// Get all elements with class="tabcontent" and hide them
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	}
+
+	// Get all elements with class="tablinks" and remove the class "active"
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+
+	// Show the current tab, and add an "active" class to the button that opened the tab
+	document.getElementById(cityName).style.display = "block";
+	evt.currentTarget.className += " active";
+}
+// show openviz
+document.getElementById("defaultOpen").click();
+</script>

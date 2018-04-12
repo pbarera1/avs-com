@@ -34,6 +34,12 @@
 	margin-left: 64px;
 	outline: 10px solid rgba($blue-10, .9);
 	background-color: rgba($blue-10, .9);
+
+	@include bp('md') {
+		margin-left: 0;
+		padding: 16px;
+		outline: 2px solid rgba($blue-10, .9);
+	}
 }
 
 .home__hero-title {
@@ -51,6 +57,10 @@
 	padding: 64px;
 	display: flex;
 	background-color: $blue-10;
+
+	@include bp('md') {
+		padding: $mobile-pad;
+	}
 }
 
 .home__about-us__img {
@@ -63,6 +73,10 @@
 	padding: 0 40px;
 	border-left: 3px solid $blue-1;
 	align-self: center;
+
+	@include bp('md') {
+		padding: $mobile-pad;
+	}
 }
 
 .home__about-us__title {
@@ -85,6 +99,10 @@
 	background-color: #fff;
 	color: $gray-700;
 	padding: 64px;
+
+	@include bp('md') {
+		padding: $mobile-pad;
+	}
 }
 
  .home__usp-container {
@@ -118,6 +136,10 @@
 	padding: 64px;
 	text-align: center;
 	color: $gray-700;
+
+	@include bp('md') {
+		padding: $mobile-pad;
+	}
 }
 
 .home__prototype-title {

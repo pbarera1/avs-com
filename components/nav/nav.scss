@@ -11,15 +11,15 @@ nav {
 .nav__container {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 0 8px;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: $nav-height;
+	padding: 0 16px;
 
-	@include bp(md) {
-		padding: 0 16px;
+	@include bp('md') {
+		padding: 0 8px;
 	}
 }
 
@@ -31,24 +31,16 @@ nav {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	display: none;
-	align-self: stretch;
-	align-items: center;
-	position: fixed;
-	flex-direction: column;
-	top: $nav-height;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background-color: (rgba($blue-3, .8));
+	display: flex;
+	margin-left: auto;
+	flex-direction: row;
+	position: static;
+	background-color: transparent;
+	width: auto;
+	height: $nav-height;
 
-	@include bp(md) {
-		display: flex;
-		margin-left: auto;
-		flex-direction: row;
-		position: static;
-		background-color: transparent;
-		width: auto;
+	@include bp('md') {
+		display: none;
 	}
 }
 
@@ -81,9 +73,9 @@ nav {
 }
 
 .nav__hamburger {
-	display: none;
+	display: block;
 
-	@include bp(md) {
-		display: block;
+	@include bp('md') {
+		display: none;
 	}
 }

@@ -1,8 +1,8 @@
 .show-md {
-  display: none;
+  display: block;
 
   @include bp(md) {
-    display: block;
+    display: none;
   }
 }
 

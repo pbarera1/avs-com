@@ -1,6 +1,7 @@
 // body
 $container-width: 1600px;
 $nav-height: 70px;
+$mobile-pad: 20px;
 
 //colors
 $green-1: #82DDC9;
@@ -26,6 +27,7 @@ $orange-3: #FAA71E;
 $orange-4: #F0A01A;
 $orange-5: #BB7809;
 
+$gray-200: #F2F2F2;
 $gray-300: #e6e6e6;
 $gray-400: #d4d4d4;
 $gray-475: #bababa;
@@ -43,13 +45,13 @@ BREAKPOINTS
 
  @mixin bp($point) {
    @if $point == lg {
-     @media (min-width: 1200px) { @content ; }
+     @media (max-width: 1200px) { @content ; }
   }
     @else if $point == md {
-     @media (min-width: 768px) { @content ; }
+     @media (max-width: 768px) { @content ; }
   }
    @else if $point == sm {
-     @media (min-width: 480px)  { @content ; }
+     @media (max-width: 480px)  { @content ; }
   }
   @else if $point == xs {
      @media (max-width: 320px)  { @content ; }

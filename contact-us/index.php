@@ -12,7 +12,7 @@ render('/components/nav/nav.php', [
 	],
 ]);
 
-//more
+render('/layouts/contact-us/contact-us.php');
 
 render('/components/shortform/shortform.php');
 

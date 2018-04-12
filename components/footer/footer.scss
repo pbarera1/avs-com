@@ -13,12 +13,12 @@
 	padding: 8px 16px;
 	align-items: center;
 	justify-content: space-around;
-	flex-direction: column;
-	text-align: center;
+	flex-direction: row;
+	text-align: left;
 
 	@include bp(md) {
-		flex-direction: row;
-		text-align: left;
+		flex-direction: column;
+		text-align: center;
 	}
 }
 
@@ -50,26 +50,27 @@
 .footer__list {
 	display: flex;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 	margin: 0;
 	padding: 0;
 
 	@include bp(md) {
-		flex-direction: row;
+		flex-direction: column;
 	}
 }
 
 .footer__list-item {
 	display: flex;
-	padding-bottom: 8px;
+	border-right: 1px dotted #999;
+	padding-bottom: 0;
 
 	&:last-child {
 		border-right: none;
 	}
 
 	@include bp(md) {
-		border-right: 1px dotted #999;
-		padding-bottom: 0;
+		border-bottom: 1px dotted #999;
+		padding-bottom: 8px;
 	}
 }
 

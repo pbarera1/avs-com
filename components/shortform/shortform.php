@@ -1,9 +1,5 @@
 <form action="" class="shortform<?= !empty($data->modifier) ? ' '.$data->modifier : ''; ?>">
 
-	<div class="shortform__text">
-		Schedule a free call with our team to discuss any questions you have!
-	</div>
-
 	<?php foreach($data->form_fields as $form_field): ?>
 	<div class="shortform__input-container">
 		<input id="<?= $form_field->label ?>" type="text" class="shortform__input" required>
