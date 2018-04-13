@@ -14,8 +14,6 @@ render('/components/nav/nav.php', [
 
 render('/layouts/contact-us/contact-us.php');
 
-render('/components/shortform/shortform.php');
-
 render('/components/footer/footer.php');
 
 render('/components/foot/foot.php');

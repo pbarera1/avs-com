@@ -18,11 +18,13 @@
 
 		</ul>
 
-		<?php render('/components/btn/btn.php', [
-			'text' => 'Request Demo',
-			'link' => '/engage',
-			'modifier' => 'show-md btn--m-left',
-		]); ?>
+		<?php if(strpos($_SERVER['REQUEST_URI'], 'engage') === false) {
+			render('/components/btn/btn.php', [
+				'text' => 'Request Demo',
+				'link' => '/engage',
+				'modifier' => 'show-md btn--m-left',
+			]);
+		} ?>
 
 		<?php render('/components/hamburger/hamburger.php'); ?>
 

@@ -71,9 +71,11 @@
 			</div>
 
 			<div id="Openviz" class="tabcontent">
+				<div class="support__version-number">
 				<h4>
 					Version 3.2 – Alpha
 				</h4>
+				</div>
 				<div>
 					<strong>.NET</strong><br/>
 					Development: Visual Studio 2010+<br/>
@@ -87,9 +89,11 @@
 					<br/><br/>
 					OpenViz is shipped with JOGL JSR231 Release 1.1.1-final version of JOGL
 				</div>
+				<div class="support__version-number">
 				<h4>
 					Version 3.1
 				</h4>
+				</div>
 				<div>
 					<strong>.NET</strong><br/>
 					Development: Visual Studio 2010+<br/>
@@ -107,9 +111,11 @@
 					Development: Visual Studio 2010+<br/>
 					Deployment: Windows
 				</div>
+				<div class="support__version-number">
 				<h4>
 					Version 3.0 - Version 2.10.2
 				</h4>
+				</div>
 				<div>
 					<strong>COM / .NET Interops</strong><br/>
 					Development: Visual Studio 2010+<br/>
@@ -274,4 +280,10 @@ function openCity(evt, cityName) {
 }
 // show openviz
 document.getElementById("defaultOpen").click();
+
+
+let h4 = document.querySelectorAll('h4');
+h4.addEventListener('click', function() {
+
+})
 </script>
