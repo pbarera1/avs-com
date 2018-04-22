@@ -5,7 +5,7 @@
 		<div class="home__hero-container">
 
 			<h1 class="home__hero-title">
-				Think outside the box. Think AVS. Test
+				Think outside the box. Think AVS.
 			</h1>
 
 			<div class="home__hero-text">
@@ -56,7 +56,7 @@
 		</div>
 
 		<?php render('/components/btn/btn.php', [
-			'text' => 'Discover How',
+			'text' => 'Learn More',
 			'link' => '#contact-form',
 			'modifier' => 'btn--wide'
 		]); ?>
