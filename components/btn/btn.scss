@@ -25,3 +25,22 @@
 	max-width: 400px;
 	text-align: center;
 }
+
+.c-btn--solutions,
+.c-btn--products {
+	width: 170px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: transparent;
+		color: darken(#fff, 10%);
+	}
+}
+
+.c-btn--products {
+	margin-left: 30px;
+}

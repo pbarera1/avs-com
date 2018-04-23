@@ -14,7 +14,22 @@ render('/components/nav/nav.php', [
 
 render('/layouts/solutions/solutions.php');
 
-render('/components/shortform/shortform.php');
+// render('/components/shortform/shortform.php', [
+// 	'form_fields' => [
+// 		(object) [
+// 			'label' => 'Name',
+// 			'name' => 'first_name',
+// 			'type' => 'text',
+// 			'required' => 'true',
+// 		],
+// 		(object) [
+// 			'label' => 'Email',
+// 			'name' => 'email',
+// 			'type' => 'email',
+// 			'required' => 'true',
+// 		],
+// 	]
+// ]);
 
 render('/components/footer/footer.php');
 

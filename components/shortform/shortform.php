@@ -3,7 +3,14 @@
  function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500);
 </script>
 
-<form action="" class="shortform<?= !empty($data->modifier) ? ' '.$data->modifier : ''; ?>" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+<form class="shortform<?= !empty($data->modifier) ? ' '.$data->modifier : ''; ?>" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+	<input type="hidden" name="debug" value=1>
+	<input type="hidden" name="debugEmail" value="pbarera@avs.com">
+<!--  ----------------------------------------------------------------------  -->
 
 	<input type=hidden name='captcha_settings' value='{"keyname":"test","fallback":"true","orgId":"00D300000005phA","ts":""}'>
 	<input type=hidden name="oid" value="00D300000005phA">
