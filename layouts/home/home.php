@@ -100,31 +100,34 @@ Over 20 years experience in data visualization-->
 		</div>
 
 		<div class="home__prototype-text">
+
+			<?php
+				render('/components/card/card.php', [
+				'content' => '<img src="/img/prototype.png" alt=""><img src="/img/result.png" alt="">',
+			]); ?>
+
 			AVS can help you develop a solution that best suits your end users and improves the efficiency of their day to day performance. Combining data from multiple data sources, reports, and from other parts of the organization can drastically help improve quality and efficiency of daily processes. Why spend 4 hours working on an Excel worksheet when you can spend that same time discussion solutions to problems.
 			<br/><br/>
 			We will work with you to better understand, organize, and present your data into a powerful easy to use application. We will help bring important decision making data to the surface so that you can easily support your decisions or insights. With a click of the button, output your results to be shared with others in your organization.
 		</div>
 
-		<?php
-		render('/components/card/card.php', [
-			'content' => '<img src="/img/prototype.png" alt=""><img src="/img/result.png" alt="">',
-		]); ?>
-
 	</div>
 
-	<?php
-	render('/components/shortform/shortform.php', [
+	<?php render('/components/shortform/shortform.php', [
 		'form_fields' => [
 			(object) [
-				'label' => 'name',
-				'name' => 'Name',
+				'label' => 'Name',
+				'name' => 'first_name',
+				'type' => 'text',
+				'required' => 'true',
 			],
 			(object) [
-				'label' => 'email',
-				'name' => 'Email',
+				'label' => 'Email',
+				'name' => 'email',
+				'type' => 'email',
+				'required' => 'true',
 			],
 		]
-	]);
-	?>
+	]); ?>
 
 </div>

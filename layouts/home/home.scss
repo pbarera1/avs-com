@@ -136,6 +136,8 @@
 	padding: 64px;
 	text-align: center;
 	color: $gray-700;
+	background: url('/img/whirlpool.png');
+	background-repeat: repeat;
 
 	@include bp('md') {
 		padding: $mobile-pad;

@@ -7,21 +7,23 @@
 	<div class="contact__container">
 
 		<div>
-			<i class="material-icons">phone</i>
+			<div class="contact__phone__container">
+				<i class="material-icons">phone</i>
 
-			 <span class="contact__label">
-				 Phone:
-			</span>
+				<span class="contact__label">
+					Phone:
+				</span>
 
-			<a href="tel:+17818904300" class="contact__link">781-890-4300</a>
+				<a href="tel:+17818904300" class="contact__link">781-890-4300</a><br/>
 
-			<span class="contact__label">
-			 Fax:
-			</span>
+				<span class="contact__label">
+				Fax:
+				</span>
 
-			<span class="contact__link">
-				781-890-8287
-			</span>
+				<span class="contact__link">
+					781-890-8287
+				</span>
+			</div>
 		</div>
 
 		<div>

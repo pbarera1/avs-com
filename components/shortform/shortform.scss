@@ -76,8 +76,8 @@
 			&::before {
 				content: '*';
 				position: absolute;
-				top: 0;
-				left: -8px;
+				top: -7px;
+				left: -5px;
 			}
 		}
 	}
@@ -138,6 +138,10 @@
 	&:hover,
 	&:focus,
 	&:active {
-		background-color: darken(#fff, 3%);
+		background-color: darken(#fff, 8%);
 	}
+}
+
+.shortform__submit--m {
+	margin: 0 0 0 16px;
 }

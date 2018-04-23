@@ -9,15 +9,18 @@
 	<input type=hidden name='captcha_settings' value='{"keyname":"test","fallback":"true","orgId":"00D300000005phA","ts":""}'>
 	<input type=hidden name="oid" value="00D300000005phA">
 	<input type=hidden name="retURL" value="http://avs.com/thank-you">
-	<input type=hidden maxlength="255" name="00N50000002uRkI" size="20" type="text" value="document.referrer"/>
+	<input id="referrer" type=hidden maxlength="255" name="00N50000002uRkI" size="20" type="text" value=""/>
 	<input type=hidden name="lead_source" value="Request-Demo-Page" />
+	<input id="last_name" type=hidden name="last_name" value="" />
+	<script type='text/javascript'>
+		document.getElementById('referrer').value = document.referrer;
+	</script>
 
 	<!--  ----------------------------------------------------------------------  -->
 	<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
 	<!--  these lines if you wish to test in debug mode.                          -->
-	<!--  <input type="hidden" name="debug" value=1>                              -->
-	<!--  <input type="hidden" name="debugEmail" value="pbarera@avs.com">         -->
-	<!--  ----------------------------------------------------------------------  -->
+	  <!--<input type="hidden" name="debug" value=1>
+	  <input type="hidden" name="debugEmail" value="pbarera@avs.com">-->
 
 
 	<?php foreach($data->form_fields as $form_field): ?>
@@ -44,17 +47,15 @@
 
 </form>
 
-<!--<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
-
-<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-
-<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
-
-<label for="description">Description</label><textarea name="description"></textarea><br>
-
-Referring URL:<input  id="00N50000002uRkI" maxlength="255" name="00N50000002uRkI" size="20" type="text" /><br>
-
-<label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Existing Account">Existing Account</option>-->
+<script type='text/javascript'>
+	let form = document.querySelector('.shortform');
+	form.addEventListener('submit', function(e){
+		e.preventDefault;
+		let name = document.querySelector('#Name');
+		let lastName = document.querySelector('#last_name');
+		nameText = name.value.split(' ');
+		name.value =  nameText[0];
+		lastName.value = nameText.slice(0, -1).join('');
+	});
+</script>
 

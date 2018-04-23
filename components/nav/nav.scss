@@ -24,7 +24,24 @@ nav {
 }
 
 .nav__logo {
+	height: 40px;
+	color: #333;
+	font-weight: bolder;
+	font-size: 32px;
+	display: flex;
+	align-items: flex-end;
+	line-height: 1;
 
+	&:hover {
+		color: #333;
+		text-decoration: none;
+	}
+}
+
+.nav__img {
+	height: 40px;
+	display: inline-block;
+	margin-right: 5px;
 }
 
 .nav__list {

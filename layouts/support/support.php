@@ -20,7 +20,9 @@
 
 			<div class="support__portal__container-text">
 
-				<h2>AVS Support Help Portal</h2>
+				<h2 class="support__portal__title">
+					AVS Support Help Portal
+				</h2>
 
 				<p>
 					The AVS Support Help Center will guide you to self-solve an issue or send a help request to the AVS Support team. Here you can inquire about a number of different topics including: licensing, download links, submit technical and product questions, and more.
@@ -72,11 +74,11 @@
 
 			<div id="Openviz" class="tabcontent">
 				<div class="support__version-number">
-				<h4>
+				<h4 data-plugin="expand">
 					Version 3.2 – Alpha
 				</h4>
 				</div>
-				<div>
+				<div class="hidden">
 					<strong>.NET</strong><br/>
 					Development: Visual Studio 2010+<br/>
 					Deployment: Windows
@@ -90,11 +92,11 @@
 					OpenViz is shipped with JOGL JSR231 Release 1.1.1-final version of JOGL
 				</div>
 				<div class="support__version-number">
-				<h4>
+				<h4 data-plugin="expand">
 					Version 3.1
 				</h4>
 				</div>
-				<div>
+				<div class="hidden">
 					<strong>.NET</strong><br/>
 					Development: Visual Studio 2010+<br/>
 					Deployment: Windows
@@ -112,11 +114,11 @@
 					Deployment: Windows
 				</div>
 				<div class="support__version-number">
-				<h4>
+				<h4 data-plugin="expand">
 					Version 3.0 - Version 2.10.2
 				</h4>
 				</div>
-				<div>
+				<div class="hidden">
 					<strong>COM / .NET Interops</strong><br/>
 					Development: Visual Studio 2010+<br/>
 					Deployment: Windows
@@ -132,7 +134,285 @@
 			</div>
 
 			<div id="Express" class="tabcontent">
-				Express
+				<h4>Supported Versions</h4>
+				Versions: 8.4, 8.3, 8.2
+				<br/><br/>
+				<h4>Latest Version: 8.4</h4>
+				<div class="support__version-number">
+				<h4 data-plugin="expand">
+					Developer & Visualization Editions
+				</h4>
+				</div>
+				<div class="hidden">
+
+					<strong>Windows</strong><br/>
+					<table>
+					<tbody>
+					<tr>
+					<td>Hardware</td>
+					<td>Operating System</td>
+					<td>Graphics Library</td>
+					<td>Compilers</td>
+					<td>Database</td>
+					</tr>
+					<tr>
+					<td>Intel x86</td>
+					<td>Windows 7, 8, 8.1, 10</td>
+					<td>OpenGL</td>
+					<td>Visual Studio 2015, 2017<br>
+					Intel Fortran 16.0</td>
+					<td>Oracle 10.2<br>
+					ODBC 2.0</td>
+					</tr>
+					<tr>
+					<td>AMD64 / Intel 64</td>
+					<td>Windows 7, 8, 8.1, 10</td>
+					<td>OpenGL</td>
+					<td>Visual Studio 2015, 2017<br>
+					Intel Fortran 16.0</td>
+					<td>Oracle 10.2<br>
+					ODBC 2.0</td>
+					</tr>
+					</tbody>
+					</table>
+					<br/><br/>
+
+					<strong>OSX</strong><br/>
+					<table>
+					<tbody>
+					<tr>
+					<td>Hardware</td>
+					<td>Operating System</td>
+					<td>Motif</td>
+					<td>Graphics Library</td>
+					<td>Compilers</td>
+					<td>Database</td>
+					</tr>
+					<tr>
+					<td>Intel x86</td>
+					<td>Mac OS X 10.9, 10.10, 10.11, 10.12</td>
+					<td>2.3 (Fink)</td>
+					<td>OpenGL</td>
+					<td>Xcode 6.2<br>
+					gfortran 5.2 (Fink)</td>
+					<td>N/A</td>
+					</tr>
+					</tbody>
+					</table>
+					<br/><br/>
+
+					<strong>Linux</strong><br/>
+					<table>
+					<tbody>
+					<tr>
+					<td>Hardware</td>
+					<td>Operating System</td>
+					<td>Motif</td>
+					<td>Graphics Library</td>
+					<td>Compilers</td>
+					<td>Database</td>
+					</tr>
+					<tr>
+					<td>Intel x86</td>
+					<td>Red Hat EL6</td>
+					<td>2.3</td>
+					<td>OpenGL/Mesa 9.2</td>
+					<td>gcc 4.4<br>
+					gfortran 4.4</td>
+					<td>Oracle 10.2</td>
+					</tr>
+					<tr>
+					<td>AMD64 / Intel 64</td>
+					<td>Red Hat EL7</td>
+					<td>2.3</td>
+					<td>OpenGL/Mesa 9.2.5</td>
+					<td>gcc 4.8<br>
+					gfortran 4.8</td>
+					<td>Oracle 10.2</td>
+					</tr>
+					<tr>
+					<td>AMD64 / Intel 64</td>
+					<td>Red Hat EL6</td>
+					<td>2.3</td>
+					<td>OpenGL/Mesa 9.2</td>
+					<td>gcc 4.4<br>
+					gfortran 4.4</td>
+					<td>Oracle 10.2</td>
+					</tr>
+					</tbody>
+					</table>
+
+				</div>
+				<div class="support__version-number">
+				<h4 data-plugin="expand">
+					Multipipe Edition
+				</h4>
+				</div>
+				<div class="hidden">
+
+					<strong>Windows</strong><br/>
+					<table>
+					<tbody>
+					<tr>
+					<td>Hardware</td>
+					<td>Operating System</td>
+					<td>MPU Library(s)</td>
+					<td>MPI Library</td>
+					<td>Compilers</td>
+					<td>Database</td>
+					</tr>
+					<tr>
+					<td>Intel x86</td>
+					<td>Windows 7, 8, 8.1, 10</td>
+					<td>CAVELib 3.3, DDR(GL) &amp; DDR(OSMesa)</td>
+					<td>Microsoft MPI</td>
+					<td>Visual Studio 2015, 2017<br>
+					Intel Fortran 16.0</td>
+					<td>Oracle 10.2<br>
+					ODBC 2.0</td>
+					</tr>
+					<tr>
+					<td>AMD64 / Intel 64</td>
+					<td>Windows 7, 8, 8.1, 10</td>
+					<td>CAVELib 3.3, DDR(GL) &amp; DDR(OSMesa)</td>
+					<td>Microsoft MPI</td>
+					<td>Visual Studio 2015, 2017<br>
+					Intel Fortran 16.0</td>
+					<td>Oracle 10.2<br>
+					ODBC 2.0</td>
+					</tr>
+					</tbody>
+					</table>
+					<br/><br/>
+
+					<strong>OSX</strong><br/>
+					Platform Not Supported
+					<br/><br/>
+
+					<strong>Linux</strong><br/>
+					<table>
+					<tbody>
+					<tr>
+					<td>Hardware</td>
+					<td>Operating System</td>
+					<td>MPU Library(s)</td>
+					<td>MPI Library</td>
+					<td>Compilers</td>
+					<td>Database</td>
+					</tr>
+					<tr>
+					<td>Intel x86</td>
+					<td>Red Hat EL6</td>
+					<td>CAVELib 3.3, DDR(GL) &amp; DDR(OSMesa)</td>
+					<td>MPICH2 1.4.1p1</td>
+					<td>gcc 4.4<br>
+					gfortran 4.4</td>
+					<td>Oracle 10.2</td>
+					</tr>
+					<tr>
+					<td>AMD64 / Intel 64</td>
+					<td>Red Hat EL7</td>
+					<td>CAVELib 3.3, DDR(GL) &amp; DDR(OSMesa)</td>
+					<td>MPICH2 1.4.1p1</td>
+					<td>gcc 4.8<br>
+					gfortran 4.8</td>
+					<td>Oracle 10.2</td>
+					</tr>
+					<tr>
+					<td>AMD64 / Intel 64</td>
+					<td>Red Hat EL6</td>
+					<td>CAVELib 3.3, DDR(GL) &amp; DDR(OSMesa)</td>
+					<td>MPICH2 1.4.1p1</td>
+					<td>gcc 4.4<br>
+					gfortran 4.4</td>
+					<td>Oracle 10.2</td>
+					</tr>
+					</tbody>
+					</table>
+
+				</div>
+				<div class="support__version-number">
+				<h4 data-plugin="expand">
+					Parallel Edition
+				</h4>
+				</div>
+				<div class="hidden">
+
+					<strong>Windows</strong><br/>
+					<table>
+					<tbody>
+					<tr>
+					<td>Hardware</td>
+					<td>Operating System</td>
+					<td>MPI Library</td>
+					<td>Compilers</td>
+					<td>Database</td>
+					</tr>
+					<tr>
+					<td>Intel x86</td>
+					<td>Windows 7, 8, 8.1, 10</td>
+					<td>Microsoft MPI</td>
+					<td>Visual Studio 2015, 2017<br>
+					Intel Fortran 16.0</td>
+					<td>Oracle 10.2<br>
+					ODBC 2.0</td>
+					</tr>
+					<tr>
+					<td>AMD64 / Intel 64</td>
+					<td>Windows Vista,7,8 x64</td>
+					<td>Microsoft MPI</td>
+					<td>Visual Studio 2015, 2017<br>
+					Intel Fortran 16.0</td>
+					<td>Oracle 10.2<br>
+					ODBC 2.0</td>
+					</tr>
+					</tbody>
+					</table>
+					<br/><br/>
+
+					<strong>OSX</strong><br/>
+					Platform Not Supported
+					<br/><br/>
+
+					<strong>Linux</strong><br/>
+					<table>
+					<tbody>
+					<tr>
+					<td>Hardware</td>
+					<td>Operating System</td>
+					<td>MPI Library</td>
+					<td>Compilers</td>
+					<td>Database</td>
+					</tr>
+					<tr>
+					<td>Intel x86</td>
+					<td>Red Hat EL6</td>
+					<td>MPICH2 1.4.1p1</td>
+					<td>gcc 4.4<br>
+					gfortran 4.4</td>
+					<td>Oracle 10.2</td>
+					</tr>
+					<tr>
+					<td>AMD64 / Intel 64</td>
+					<td>Red Hat EL7</td>
+					<td>MPICH2 1.4.1p1</td>
+					<td>gcc 4.8<br>
+					gfortran 4.8</td>
+					<td>Oracle 10.2</td>
+					</tr>
+					<tr>
+					<td>AMD64 / Intel 64</td>
+					<td>Red Hat EL6</td>
+					<td>MPICH2 1.4.1p1</td>
+					<td>gcc 4.4<br>
+					gfortran 4.4</td>
+					<td>Oracle 10.2</td>
+					</tr>
+					</tbody>
+					</table>
+
+				</div>
+
 			</div>
 
 			<div id="Toolmaster" class="tabcontent">
@@ -140,7 +420,7 @@
 				Versions: 8.1, 8.0, 7.5.4 & 3.5.4
 				<br/><br/>
 				Latest Version: 8.1
-
+				<br/><br/>
 				<table>
 					<tbody>
 					<tr>
@@ -206,7 +486,7 @@
 				Versions: 5.8
 				<br/><br/>
 				Latest Version: 5.8
-
+				<br/><br/>
 				<h4>Linux</h4>
 				<table>
 				<tbody>
@@ -232,7 +512,7 @@
 				</tr>
 				</tbody>
 				</table>
-
+				<br/><br/>
 				<h4>OSX</h4>
 				<table>
 				<tbody>
@@ -280,10 +560,4 @@ function openCity(evt, cityName) {
 }
 // show openviz
 document.getElementById("defaultOpen").click();
-
-
-let h4 = document.querySelectorAll('h4');
-h4.addEventListener('click', function() {
-
-})
 </script>

@@ -3,7 +3,8 @@
 	<div class="nav__container">
 
 		<a href="/" class="nav__logo">
-			<img src="http://www.avs.com/wp-content/uploads/2013/02/avslogoc.png" alt="" width="150">
+			<img src="/img/logo.png" alt="" class="nav__img">
+			<span>AVS</span>
 		</a>
 
 		<ul class="nav__list">
