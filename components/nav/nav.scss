@@ -9,7 +9,7 @@ nav {
 }
 
 .nav__container {
-	max-width: 1440px;
+	max-width: $container-width;
 	margin: 0 auto;
 	width: 100%;
 	display: flex;
@@ -58,6 +58,14 @@ nav {
 
 	@include bp('md') {
 		display: none;
+		position: fixed;
+		top: 70px;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: rgba(#0F4084, .8);
+		flex-flow: column nowrap;
+		height: 100%;
 	}
 }
 
@@ -87,6 +95,22 @@ nav {
 		text-decoration: none;
 		border-bottom: 2px solid #000;
 	}
+
+	@include bp('md') {
+		color: #fff;
+		padding: 16px 0;
+		width: 100%;
+		text-align: center;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: #fff;
+			text-decoration: none;
+			border-bottom: 2px dotted #fff;
+		}
+	}
+
 }
 
 .nav__hamburger {

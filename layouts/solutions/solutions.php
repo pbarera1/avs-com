@@ -32,93 +32,103 @@
 
 	</div>
 
-	<div id="products" class="solutions__products">
+	<div class="products__background">
 
-		<div class="solutions__products__container">
+		<div id="products" class="solutions__products">
 
-			<div class="solutions__products__card">
+			<div class="solutions__products__container">
 
-				<h1 class="solutions__products__title">
-					OpenViz
-				</h1>
+				<div class="solutions__products__card">
 
-				<div class="solutions__products__subtitle">
-					A powerful data management and data visualization API
-				</div>
+					<h1 class="solutions__products__title">
+						OpenViz
+					</h1>
 
-				<div class="solutions__products__text">
-					The OpenViz API consists of a flexible data management pipeline that feeds many millions of in-memory data points into a high performance rendering engine for scalable graphics generation. OpenViz allows software makers to create unique look-and-feel branding for any data visualization and seamlessly weave them into long lifecycle multi-product strategies using agile development.
-				</div>
-
-				<?php render('/components/btn/btn.php', [
-					'text' => 'Discover How',
-					'link' => '#contact-form'
-				]); ?>
-
-			</div>
-
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img src="/img/slider/express-1.gif" alt="">
-						<div>Slide 1</div>
+					<div class="solutions__products__subtitle">
+						A powerful data management and data visualization API
 					</div>
-					<div class="swiper-slide">
-						<img src="/img/slider/express-2.gif" alt="">
-						<div>Slide 2</div>
+
+					<div class="solutions__products__text">
+						The OpenViz API consists of a flexible data management pipeline that feeds many millions of in-memory data points into a high performance rendering engine for scalable graphics generation. OpenViz allows software makers to create unique look-and-feel branding for any data visualization and seamlessly weave them into long lifecycle multi-product strategies using agile development.
 					</div>
+
+					<?php render('/components/btn/btn.php', [
+						'text' => 'Discover How',
+						'link' => '#contact-form'
+					]); ?>
+
 				</div>
-				<!-- Add Pagination -->
-				<div class="swiper-pagination"></div>
-				<!-- Add Arrows -->
-				<div class="swiper-button-next"></div>
-				<div class="swiper-button-prev"></div>
+
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="/img/slider/express-1.gif" alt="">
+							<div>Slide 1</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="/img/slider/express-2.gif" alt="">
+							<div>Slide 2</div>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+
 			</div>
 
 		</div>
 
-	</div>
+		<div class="solutions__logos__title">
+			Providing Trusted Solutions to Fortune 500 Companies
+		</div>
 
-	<div class="solutions__products">
+		<img class="solutions__logos" src="/img/solutions-logos.png" alt="">
 
-		<div class="solutions__products__container">
+		<div class="solutions__products">
 
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img src="/img/slider/openviz-1.png" alt="">
-						<div>Slide 1</div>
+			<div class="solutions__products__container">
+
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="/img/slider/openviz-1.png" alt="">
+							<div>Slide 1</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="/img/slider/openviz-2.png" alt="">
+							<div>Slide 2</div>
+						</div>
 					</div>
-					<div class="swiper-slide">
-						<img src="/img/slider/openviz-2.png" alt="">
-						<div>Slide 2</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+
+				<div class="solutions__products__card">
+
+					<h1 class="solutions__products__title">
+						AVS/Express
+					</h1>
+
+					<div class="solutions__products__subtitle">
+						Visually connect modules to rapidly discover insight into your data
 					</div>
+
+					<div class="solutions__products__text">
+						AVS/Express is a comprehensive and versatile data visualization tool for both non-programmers and experienced developers. Parallel data processing for rapid data analysis, combined with rich visualization techniques and an intuitive graphical application development environment, allow for quick exploration of big data. A powerful  graphics engine has been designed to handle the most data intensive, interactive graphics applications using multipipe rendering and immersive virtual reality environments.
+					</div>
+
+					<?php render('/components/btn/btn.php', [
+						'text' => 'Discover How',
+						'link' => '#contact-form'
+					]); ?>
+
 				</div>
-				<!-- Add Pagination -->
-				<div class="swiper-pagination"></div>
-				<!-- Add Arrows -->
-				<div class="swiper-button-next"></div>
-				<div class="swiper-button-prev"></div>
-			</div>
-
-			<div class="solutions__products__card">
-
-				<h1 class="solutions__products__title">
-					AVS/Express
-				</h1>
-
-				<div class="solutions__products__subtitle">
-					Visually connect modules to rapidly discover insight into your data
-				</div>
-
-				<div class="solutions__products__text">
-					AVS/Express is a comprehensive and versatile data visualization tool for both non-programmers and experienced developers. Parallel data processing for rapid data analysis, combined with rich visualization techniques and an intuitive graphical application development environment, allow for quick exploration of big data. A powerful  graphics engine has been designed to handle the most data intensive, interactive graphics applications using multipipe rendering and immersive virtual reality environments.
-				</div>
-
-				<?php render('/components/btn/btn.php', [
-					'text' => 'Discover How',
-					'link' => '#contact-form'
-				]); ?>
 
 			</div>
 
