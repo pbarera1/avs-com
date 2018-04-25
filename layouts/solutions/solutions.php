@@ -54,7 +54,7 @@
 
 					<?php render('/components/btn/btn.php', [
 						'text' => 'Discover How',
-						'link' => '#contact-form'
+						'link' => '/solutions/openviz'
 					]); ?>
 
 				</div>
@@ -125,7 +125,7 @@
 
 					<?php render('/components/btn/btn.php', [
 						'text' => 'Discover How',
-						'link' => '#contact-form'
+						'link' => '/solutions/express'
 					]); ?>
 
 				</div>
