@@ -1,0 +1,40 @@
+.express {
+	padding: 70px 0 0;
+}
+
+.express__hero {
+	background: linear-gradient(45deg, $blue-5 , $blue-10);
+	padding: 64px;
+}
+
+.express__hero__container {
+	max-width: 900px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.express__hero__text {
+
+}
+
+.express__hero__image {
+	margin-left: 60px;
+}
+
+.express__history {
+	color: $gray-700;
+
+	.material-icons {
+		color: $blue-5;
+	}
+}
+
+.express__editions {
+	display: flex;
+	justify-content: space-between;
+
+	> div {
+		flex-basis: 20%;
+	}
+}

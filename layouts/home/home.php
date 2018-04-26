@@ -35,9 +35,9 @@
 					Integrate with your existing solutions extracting the best information from each.
 				</div>
 
-				<div class="home__usp-text">
+				<p class="home__usp-text">
 					AVS solutions enable you to integrate data from many different sources through an in-memory process that enables full data exploration. We can ingest any data from any system at high speed and correlate information ﻿in﻿ real time. Our solutions are agnostic to data, agnostic to platform, and agnostic to format. As a result, we can integrate the most important information from all your existing solutions into a powerful daily use application that delivers critical decision-making insight in real time.
-				</div>
+				</p>
 
 			</div>
 
@@ -47,9 +47,9 @@
 					Deliver powerful insight to anyone, anywhere
 				</div>
 
-				<div class="home__usp-text">
+				<p class="home__usp-text">
 					Define your own business rules, develop and integrate your own models and algorithms, and present your results with your own corporate branding. Our technology allows you to create many views of your data to cater to the workflow of many different groups and departments; from mission critical operators to analysts to executives. And most importantly, you can deliver your results securely to any device, anywhere in the world; we support all deployments in every locale.
-				</div>
+				</p>
 
 			</div>
 
@@ -106,9 +106,14 @@ Over 20 years experience in data visualization-->
 				'content' => '<img src="/img/prototype.png" alt=""><img src="/img/result.png" alt="">',
 			]); ?>
 
-			AVS can help you develop a solution that best suits your end users and improves the efficiency of their day to day performance. Combining data from multiple data sources, reports, and from other parts of the organization can drastically help improve quality and efficiency of daily processes. Why spend 4 hours working on an Excel worksheet when you can spend that same time discussion solutions to problems.
-			<br/><br/>
-			We will work with you to better understand, organize, and present your data into a powerful easy to use application. We will help bring important decision making data to the surface so that you can easily support your decisions or insights. With a click of the button, output your results to be shared with others in your organization.
+			<p>
+				AVS can help you develop a solution that best suits your end users and improves the efficiency of their day to day performance. Combining data from multiple data sources, reports, and from other parts of the organization can drastically help improve quality and efficiency of daily processes. Why spend 4 hours working on an Excel worksheet when you can spend that same time discussion solutions to problems.
+			</p>
+
+			<p>
+				We will work with you to better understand, organize, and present your data into a powerful easy to use application. We will help bring important decision making data to the surface so that you can easily support your decisions or insights. With a click of the button, output your results to be shared with others in your organization.
+			</p>
+
 		</div>
 
 	</div>

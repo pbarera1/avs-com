@@ -19,7 +19,7 @@
 	<input type=hidden name="lead_source" value="Request-Demo-Page" />
 	<input id="last_name" type=hidden name="last_name" value="" />
 	<script type='text/javascript'>
-		document.getElementById('referrer').value = document.referrer;
+		document.getElementById('referrer').value = window.location.href;
 	</script>
 
 	<?php foreach($data->form_fields as $form_field): ?>

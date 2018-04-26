@@ -33,6 +33,11 @@
 	align-items: stretch;
 	justify-content: center;
 
+	@include bp('md') {
+		flex-flow: column nowrap;
+		padding: 20px 0 40px;
+	}
+
 	> div {
 		padding: 20px;
 		flex-basis: 30%;

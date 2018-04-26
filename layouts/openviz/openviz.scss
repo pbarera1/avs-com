@@ -1,0 +1,40 @@
+.openviz {
+	padding: 70px 0 0;
+}
+
+.openviz__hero {
+	padding: 64px;
+	background: url('/img/openviz-trans-3.png');
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: top right;
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(45deg, rgba($orange-5, 1), rgba($orange-4, .6));
+	}
+}
+
+.openviz__hero__container {
+	max-width: 700px;
+	// margin: auto;
+	margin-left: 10%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+}
+
+.openviz__hero__text {
+
+}
+
+.openviz__hero__image {
+	margin-left: 60px;
+}

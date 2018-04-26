@@ -17,15 +17,17 @@
 			</li>
 			<?php endforeach; ?>
 
-		</ul>
+			<li class="nav__list-item">
+				<?php if(strpos($_SERVER['REQUEST_URI'], 'engage') === false) {
+					render('/components/btn/btn.php', [
+						'text' => 'Request Demo',
+						'link' => '/engage',
+						'modifier' => 'btn--m-left',
+					]);
+				} ?>
+			</li>
 
-		<?php if(strpos($_SERVER['REQUEST_URI'], 'engage') === false) {
-			render('/components/btn/btn.php', [
-				'text' => 'Request Demo',
-				'link' => '/engage',
-				'modifier' => 'show-md btn--m-left',
-			]);
-		} ?>
+		</ul>
 
 		<?php render('/components/hamburger/hamburger.php'); ?>
 

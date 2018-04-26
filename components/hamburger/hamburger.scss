@@ -4,7 +4,7 @@
 
 	@include bp('md') {
 		width: 45px;
-		height: 40px;
+		height: 35px;
 		position: relative;
 		transform: rotate(0deg);
 		transition: .5s ease-in-out;
@@ -16,7 +16,7 @@
 
 		&:nth-child(1) {
 			transform: rotate(45deg);
-			top: -3px;
+			top: 0;
 			left: 8px;
 		}
 
@@ -27,7 +27,7 @@
 
 		&:nth-child(3) {
 			transform: rotate(-45deg);
-			top: 39px;
+			top: 32px;
 			left: 8px;
 		}
   }
@@ -37,7 +37,7 @@
 .hamburger__line {
 	display: block;
 	position: absolute;
-	height: 7px;
+	height: 5px;
 	width: 100%;
 	background: $red-3;
 	border-radius: 9px;
@@ -57,7 +57,7 @@
 	}
 
 	&:nth-child(3) {
-		top: 30px;
+		bottom: 0;
 		transform-origin: left center;
 	}
 }

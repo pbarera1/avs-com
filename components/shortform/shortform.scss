@@ -1,13 +1,28 @@
 .shortform {
 	background-color: $blue-5;
 	background: linear-gradient(to top, $blue-10 , $blue-5);
-	padding: 32px 16px;
+	padding: 48px 16px 32px;
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
+	position: relative;
 
-	@include bp(md) {
+	&:before {
+		content: 'Schedule a free meeting with an AVS representative';
+		position: absolute;
+		top: 16px;
+		left: 16px;
+		display: block;
+
+		@include bp('md') {
+			top: 24px;
+		}
+	}
+
+	@include bp('md') {
 		flex-flow: column wrap;
+		align-items: stretch;
+		padding: 64px 16px 16px;
 	}
 }
 
@@ -41,8 +56,8 @@
 	flex-basis: 33%;
 	max-width: 420px;
 
-	@include bp(md) {
-		margin: 0 16px 16px 0;
+	@include bp('md') {
+		margin: 0 0 16px 0;
 		flex-basis: 100%;
 	}
 }
@@ -148,4 +163,8 @@
 	margin: 0 0 0 16px;
 	flex-basis: 120px;
 	max-height: 62px;
+
+	@include bp('md') {
+		margin: 16px 0 0;
+	}
 }

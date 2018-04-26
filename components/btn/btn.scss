@@ -17,6 +17,11 @@
 
 .btn--m-left {
 	margin-left: 16px;
+
+	@include bp('md') {
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 .btn--wide {
@@ -43,4 +48,8 @@
 
 .c-btn--products {
 	margin-left: 30px;
+
+	@include bp('md') {
+		margin: 20px 0 0;
+	}
 }

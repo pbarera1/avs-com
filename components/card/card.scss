@@ -16,8 +16,21 @@
 		transition: all .2s ease-in;
 	}
 
+	@include bp('md') {
+		flex-flow: column nowrap;
+		padding: 16px 0;
+	}
+
 	img {
 		max-width: 336px;
-		margin: 0 32px;
+		padding: 0 32px;
+
+		@include bp('md') {
+			padding: 0 16px;
+
+			&:first-child {
+				padding: 0 16px 16px;
+			}
+		}
 	}
 }

@@ -30,10 +30,14 @@
 			]
 		]); ?>
 
-		<img src="/img/customer-logos.png" alt="" class="engage__image">
+		<div class="engage__img__container">
 
-		<div class="engage__clients">
-			Providing Trusted Solutions to Fortune 500 Companies
+			<img src="/img/customer-logos.png" alt="" class="engage__image">
+
+			<div class="engage__clients">
+				Providing Trusted Solutions to Fortune 500 Companies
+			</div>
+
 		</div>
 
 	</div>

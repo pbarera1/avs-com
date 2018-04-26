@@ -81,11 +81,15 @@
 
 		</div>
 
-		<div class="solutions__logos__title">
-			Providing Trusted Solutions to Fortune 500 Companies
-		</div>
+		<div class="solutions__logos__container">
 
-		<img class="solutions__logos" src="/img/solutions-logos.png" alt="">
+			<div class="solutions__logos__title">
+				Providing Trusted Solutions to Fortune 500 Companies
+			</div>
+
+			<img class="solutions__logos" src="/img/solutions-logos.png" alt="">
+
+		</div>
 
 		<div class="solutions__products">
 
