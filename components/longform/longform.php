@@ -1,6 +1,14 @@
-<script src="https://www.google.com/recaptcha/api.js"></script>
+<!--<script src="https://www.google.com/recaptcha/api.js"></script>-->
 <script>
- function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500);
+	window.addEventListener('load', function(){
+		// append js into the document
+		const head = document.getElementsByTagName('head')[0];
+		const googleRecapctha = document.createElement('script');
+		googleRecapctha.src = 'https://www.google.com/recaptcha/api.js'
+		head.appendChild(googleRecapctha);
+	});
+
+	function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500);
 </script>
 
 <form class="shortform<?= !empty($data->modifier) ? ' '.$data->modifier : ''; ?>" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">

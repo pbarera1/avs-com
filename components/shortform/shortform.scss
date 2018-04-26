@@ -33,6 +33,10 @@
 	background: transparent;
 	align-items: stretch;
 
+	&:before {
+		display: none;
+	}
+
 	.shortform__input-container {
 		max-width: none;
 		margin: 0 0 16px 0;

@@ -18,10 +18,10 @@
 			<?php endforeach; ?>
 
 			<li class="nav__list-item">
-				<?php if(strpos($_SERVER['REQUEST_URI'], 'engage') === false) {
+				<?php if(strpos($_SERVER['REQUEST_URI'], 'forms') === false) {
 					render('/components/btn/btn.php', [
 						'text' => 'Request Demo',
-						'link' => '/engage',
+						'link' => '/forms',
 						'modifier' => 'btn--m-left',
 					]);
 				} ?>

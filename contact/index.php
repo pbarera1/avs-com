@@ -8,11 +8,11 @@ render('/components/nav/nav.php', [
 	items => [
 		'Solutions' => '/solutions',
 		'Support' => '/support',
-		'Contact Us' => '/contact-us',
+		'Contact Us' => '/contact',
 	],
 ]);
 
-render('/layouts/contact-us/contact-us.php');
+render('/layouts/contact/contact.php');
 
 render('/components/footer/footer.php');
 

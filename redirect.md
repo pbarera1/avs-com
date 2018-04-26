@@ -76,3 +76,29 @@ http://www.avs.com/solutions/express/editions/	2018-04-05T17:04:55+00:00	0.64
 http://www.avs.com/resources/press-releases/social-media-visualization/	2018-04-05T17:04:55+00:00	0.51
 http://www.avs.com/resources/press-releases/data-visualization-aids-drug-design-software/	2018-04-05T17:04:55+00:00	0.51
 http://www.avs.com/resources/press-releases/view-capture-avs-express/	2018-04-05T17:04:55+00:00	0.51
+
+put in a server block
+
+# anything in support folder to /support/
+rewrite ^/support/*$ https://$server_name/support/ permanent;
+# /about-us/ folder to home
+rewrite ^/about-us/$ https://$server_name/ permanent;
+# /customer-success/ folder to home
+rewrite ^/customer-success/$ https://$server_name/ permanent;
+# non express and openviz in solutions folder to /solutions/
+rewrite ^/solutions/[avs5 | toolmaster | gsharp]$ https://$server_name/solutions/ permanent;
+# anything in express folder to /express/
+rewrite ^/solutions/express/*$ https://$server_name/solutions/express/ permanent;
+# anything in openviz folder to /openviz/
+rewrite ^/solutions/openviz/*$ https://$server_name/solutions/openviz/ permanent;
+# anything in resources folder to home
+rewrite ^/resources/*$ https://$server_name/ permanent;
+
+https://bjornjohansen.no/nginx-redirect
+rewrite ^/support/*$ https://$server_name/$1/$2 permanent;
+
+#avs
+- compress images & defer with intersection observer, shitty hero until window.load
+- defer google maps and recaptcha
+- enable http and ssl, redirects
+- 404 page

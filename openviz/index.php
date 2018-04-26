@@ -8,7 +8,7 @@ render('/components/nav/nav.php', [
 	items => [
 		'Solutions' => '/solutions',
 		'Support' => '/support',
-		'Contact Us' => '/contact-us',
+		'Contact Us' => '/contact',
 	],
 ]);
 

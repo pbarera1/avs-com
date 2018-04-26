@@ -33,6 +33,7 @@
 .express__editions {
 	display: flex;
 	justify-content: space-between;
+	max-width: 900px;
 
 	> div {
 		flex-basis: 20%;
