@@ -5,17 +5,36 @@
 .express__hero {
 	background: linear-gradient(45deg, $blue-5 , $blue-10);
 	padding: 64px;
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: url('/img/solutions/express-hero.png');
+		background-repeat: no-repeat;
+		background-position: 110% 30%;
+	}
 }
 
 .express__hero__container {
-	max-width: 1000px;
+	max-width: 1100px;
 	margin: auto;
 	display: flex;
 	align-items: center;
+	position: relative;
+	z-index: 2;
 }
 
 .express__hero__text {
+	flex-basis: 60%;
 
+	@include bp('md') {
+		flex-basis: 100%;
+	}
 }
 
 .express__hero__image {
@@ -83,7 +102,7 @@
 
 .express__list {
 	list-style: none;
-	padding: 0 0 0 25px;
+	padding: 0 0 25px 25px;
 
 	li {
 		padding-left: 22px;
@@ -102,6 +121,7 @@
 	h2 {
 		text-align: center;
 		margin-bottom: 3rem;
+		font-size: 44px;
 	}
 }
 

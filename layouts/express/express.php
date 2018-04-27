@@ -10,15 +10,21 @@
 					AVS Express
 				</h1>
 
-				<div>
+				<p>
 					AVS/Express is a comprehensive and versatile data visualization tool for both non-programmers and experienced developers. Rapid data analysis and rich visualization techniques combined with an intuitive, graphical application development environment make AVS/Express the best choice for any data visualization task.
-					<br/><br/>
+				</p>
+				<p>
 					AVS/Express provides powerful visualization methods for challenging problems in a vast range of fields, including science, business, engineering, medicine, telecommunications and environmental research.
-				</div>
+				</p>
+
+				<?php render('/components/btn/btn.php', [
+					'text' => 'Learn More',
+					'link' => '/forms'
+				]); ?>
 
 			</div>
 
-			<img class="express__hero__image" src="http://www.avs.com/wp-content/uploads/2013/04/image10.gif" alt="">
+			<!--<img class="express__hero__image" src="http://www.avs.com/wp-content/uploads/2013/04/image10.gif" alt="">-->
 
 		</div>
 
@@ -62,6 +68,11 @@
 					Support on 64-bit platforms–scales to very large data and very complex systems.
 				</li>
 			</ul>
+
+			<?php render('/components/btn/btn.php', [
+				'text' => 'Learn More',
+				'link' => '/forms'
+			]); ?>
 
 		</div>
 
