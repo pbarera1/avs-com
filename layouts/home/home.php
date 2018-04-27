@@ -85,10 +85,6 @@
 
 	</div>
 
-<!--Trusted by leading Fortune 500 Companies
-Over 20 years experience in data visualization-->
-
-
 	<div class="home__prototype">
 
 		<h1 class="home__prototype-title">

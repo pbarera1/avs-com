@@ -8,7 +8,7 @@
 }
 
 .express__hero__container {
-	max-width: 900px;
+	max-width: 1000px;
 	margin: auto;
 	display: flex;
 	align-items: center;
@@ -22,20 +22,142 @@
 	margin-left: 60px;
 }
 
+.express__callout {
+	background-color: $gray-400;
+	color: $gray-600;
+	font-weight: 800;
+	padding: 32px;
+	margin: 64px auto 0;
+	max-width: 1000px;
+	border-radius: 6px;
+	font-size: 28px;
+	text-align: center;
+
+	@include bp('md') {
+		padding: 16px;
+		margin: 32px 20px 0;
+	}
+}
+
 .express__history {
 	color: $gray-700;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 64px 20px;
 
+	@include bp('md') {
+		padding: 32px 20px;
+	}
+
+	h2,
+	h3 {
+		color: $gray-600;
+	}
 	.material-icons {
 		color: $blue-5;
+		position: absolute;
+		top: 5px;
+		left: -10px;
+		font-size: 22px;
+		font-weight: 800;
+	}
+}
+
+.express__history {
+	display: flex;
+}
+
+.express__container {
+
+}
+
+.express__logos {
+	max-width: 300px;
+	margin-left: 60px;
+	align-self: center;
+
+	@include bp('md') {
+		margin-left: 0;
+	}
+}
+
+.express__list {
+	list-style: none;
+	padding: 0 0 0 25px;
+
+	li {
+		padding-left: 22px;
+		position: relative;
 	}
 }
 
 .express__editions {
+	padding: 32px 64px 64px;
+	background-color: $blue-10;
+
+	@include bp('md') {
+		padding: 20px;
+	}
+
+	h2 {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+}
+
+.express__editions__container {
 	display: flex;
 	justify-content: space-between;
 	max-width: 900px;
+	margin: 0 auto;
 
 	> div {
 		flex-basis: 20%;
+		background-color: #fff;
+		color: #a3a3a3;
+		border-bottom: 4px solid $blue-2;
+		text-align: center;
+
+		> img {
+			margin-bottom: 1rem;
+			width: 100%;
+		}
+
+		> p {
+			margin: 0 10px 1rem;
+			font-size: 13px;
+			line-height: 1.4;
+		}
 	}
+}
+
+.express__box__title {
+	color: $gray-700;
+	margin-bottom: 1rem;
+	font-size: 18px;
+}
+
+.express__trial {
+	color: $gray-700;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 64px 20px;
+
+	@include bp('md') {
+		padding: 32px 20px;
+	}
+
+	h2,
+	h3 {
+		color: $gray-600;
+	}
+}
+
+.express__wave {
+	width: 100%;
+	height: 80px;
+	fill: $blue-10;
+	display: block;
+	position: relative;
+	top: 1px;
 }
