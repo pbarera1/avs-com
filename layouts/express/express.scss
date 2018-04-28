@@ -18,6 +18,14 @@
 		background-repeat: no-repeat;
 		background-position: 110% 30%;
 	}
+
+	@include bp('md') {
+		padding: 64px 20px;
+
+		&:before {
+			display: none;
+		}
+	}
 }
 
 .express__hero__container {
@@ -63,9 +71,11 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 64px 20px;
+	display: flex;
 
 	@include bp('md') {
 		padding: 32px 20px;
+		flex-flow: column nowrap;
 	}
 
 	h2,
@@ -80,10 +90,6 @@
 		font-size: 22px;
 		font-weight: 800;
 	}
-}
-
-.express__history {
-	display: flex;
 }
 
 .express__container {
@@ -131,12 +137,21 @@
 	max-width: 900px;
 	margin: 0 auto;
 
+	@include bp('md') {
+		flex-flow: column nowrap;
+	}
+
 	> div {
 		flex-basis: 20%;
 		background-color: #fff;
 		color: #a3a3a3;
 		border-bottom: 4px solid $blue-2;
 		text-align: center;
+
+		@include bp('md') {
+			flex-basis: 100%;
+			margin-bottom: 3rem;
+		}
 
 		> img {
 			margin-bottom: 1rem;

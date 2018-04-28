@@ -4,10 +4,7 @@
 
 .openviz__hero {
 	padding: 64px;
-	background: url('/img/openviz-trans-3.png');
-	background-size: 50%;
-	background-repeat: no-repeat;
-	background-position: top right;
+    background-image: linear-gradient(45deg, rgba($orange-4, 1), rgba($orange-4, 1));
 	position: relative;
 
 	&:before {
@@ -17,13 +14,16 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background-image: linear-gradient(45deg, rgba($orange-4, 1), rgba($orange-4, .7));
+		background: url('/img/openviz-trans-3.png');
+		background-repeat: no-repeat;
+		background-position: 110% 30%;
+		background-size: 50%;
 	}
 }
 
 .openviz__hero__container {
 	max-width: 700px;
-	margin: auto;
+	margin: 0 0 0 5%;
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -38,10 +38,57 @@
 	margin-left: 60px;
 }
 
-.openviz__specs {
-	color: $gray-700;
+.openviz__copy {
 	padding: 60px;
-	background-color: $gray-300;
+	background: url('/img/whirlpool.png');
+	background-repeat: repeat;
+
+	@include bp('md') {
+		padding: 60px 20px;
+	}
+}
+
+.openviz__copy__container {
+	max-width: 1200px;
+	margin: 0 auto;
+	columns: 3;
+	break-inside: avoid-column;
+	color: $gray-700;
+	font-size: 16px;
+
+	@include bp('md') {
+		columns: 2;
+	}
+
+	@include bp('sm') {
+		columns: 1;
+	}
+
+	h3 {
+		color: $gray-600;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.openviz__caption {
+	font-size: 12px;
+	text-align: center;
+	font-style: italic;
+	margin: 2rem 0 3rem;
+}
+
+.openviz__copy__title {
+	color: $gray-600;
+	text-align: center;
+	font-size: 44px;
+}
+
+.openviz__specs {
+	padding: 60px;
 
 	@include bp('md') {
 		padding: 60px 20px;
@@ -57,6 +104,7 @@
 .openviz__specs__container {
 	max-width: 900px;
 	margin: 0 auto;
+	color: $gray-700;
 }
 
 .openviz__table {
@@ -71,14 +119,14 @@
 
 .openviz__overview__container {
 	max-width: 1200px;
-	margin: 64px auto;
+	margin: 64px auto 0;
 	color: $gray-700;
 	display: flex;
 	justify-content: space-around;
 
 	@include bp('md') {
 		flex-flow: column nowrap;
-		margin: 32px auto;
+		margin: 32px auto 0;
 	}
 
 	h2 {
@@ -92,6 +140,11 @@
 }
 
 .openviz__divider {
-	margin: 0 auto;
+	margin: 64px auto 0;
 	display: block;
+
+	@include bp('md') {
+		flex-flow: column nowrap;
+		margin: 32px auto 0;
+	}
 }
