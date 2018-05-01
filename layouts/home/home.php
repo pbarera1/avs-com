@@ -1,6 +1,6 @@
 <div class="home">
 
-	<div class="home__hero">
+	<div class="home__hero" data-plugin="defer-hero" data-src="/img/hero.jpg">
 
 		<div class="home__hero-container">
 
@@ -23,13 +23,13 @@
 
 	<div class="home__usp">
 
-		<h1 class="home__usp-title">
-			Best of Both Worlds - Data Management
-		</h1>
-
 		<div class="home__usp-container">
 
 			<div class="home__usp-half">
+
+				<h2 class="home__usp-title">
+					Best of Both Worlds
+				</h2>
 
 				<div class="home__usp-subheader">
 					Integrate with your existing solutions extracting the best information from each.
@@ -42,6 +42,10 @@
 			</div>
 
 			<div class="home__usp-half">
+
+				<h2 class="home__usp-title">
+					Data Management
+				</h2>
 
 				<div class="home__usp-subheader">
 					Deliver powerful insight to anyone, anywhere

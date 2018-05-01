@@ -99,5 +99,6 @@ rewrite ^/support/*$ https://$server_name/$1/$2 permanent;
 
 #avs
 - compress images & defer with intersection observer, shitty hero until window.load
+- don't load all of google icons
 - enable http and ssl, redirects
 - 404 page

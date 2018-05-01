@@ -1,6 +1,6 @@
 <div class="solutions">
 
-	<div class="solutions__hero">
+	<div class="solutions__hero" data-plugin="defer-hero" data-src="/img/hero-dark.png">
 
 		<div class="solutions__hero__container">
 
@@ -145,15 +145,17 @@
 		<div class="solutions__engineers__container">
 
 			<h1 class="solutions__engineers__title">
-				Engineering data insight since 1991
+				AVS Professional Services
 			</h1>
 
 			<div class="solutions__engineers__subtitle">
-				Experienced in Every Industry
+				Engineering data insight since 1991
 			</div>
 
 			<div class="solutions__engineers__text">
-				AVS has invested over 20 years of research and development into how end users use data (and how software developers develop solutions) so that everyone can make the best possible decision in the least amount of time. Our Professional Services Team works to understands the needs of your end users, the data available to make decisions, and assists in constructing a solution that improves daily workflow and highlights decision making information.
+				<p>AVS has invested over 20 years of research and development into how end users use data (and how software developers develop solutions) so that everyone can make the best possible decision in the least amount of time.</p>
+				<p>Our Professional Services Team works to understands the needs of your end users, the data available to make decisions, and assists in constructing a solution that improves daily workflow and highlights decision making information.</p>
+				<p>Our extensive experience across every industry, every deployment, and every user-group allow us to be best of breed.</p>
 			</div>
 
 			<?php render('/components/btn/btn.php', [
