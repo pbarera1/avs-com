@@ -25,6 +25,10 @@
 
 		<div class="home__usp-container">
 
+			<i class="material-icons">
+				autorenew
+			</i>
+
 			<div class="home__usp-half">
 
 				<h2 class="home__usp-title">
@@ -103,7 +107,7 @@
 
 			<?php
 				render('/components/card/card.php', [
-				'content' => '<img src="/img/prototype.png" alt=""><img src="/img/result.png" alt="">',
+				'content' => '<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/prototype.png" alt="" data-plugin="defer-img-load"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/result.png" alt="" data-plugin="defer-img-load">',
 			]); ?>
 
 			<p>

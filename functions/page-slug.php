@@ -21,7 +21,7 @@ function get_title_tag() {
  * Check if on dev env
  */
 function is_dev() {
-	if (stripos($_SERVER["HTTP_HOST"], 'new.avs')) return true;
+	if (stripos($_SERVER["HTTP_HOST"], 'new.avs') !== false) return true;
 	return false;
 }
 

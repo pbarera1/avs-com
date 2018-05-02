@@ -107,7 +107,6 @@
 
 
 .home__usp {
-	background-color: #fff;
 	color: $gray-700;
 	padding: 64px;
 
@@ -121,9 +120,21 @@
 	justify-content: space-between;
 	max-width: 1200px;
 	margin: 0 auto;
+	position: relative;
 
 	@include bp('md') {
 		flex-flow: column nowrap;
+	}
+
+	.material-icons {
+		position: absolute;
+		font-size: 420px;
+		text-align: center;
+		width: 100%;
+		color: $gray-300;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: -1;
 	}
  }
 
