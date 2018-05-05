@@ -60,7 +60,7 @@
 	background-color: $blue-10;
 
 	@include bp('md') {
-		padding: $mobile-pad;
+		padding: 48px 20px;
 		flex-flow: column nowrap;
 		flex-direction: column-reverse;
 	}
@@ -111,7 +111,7 @@
 	padding: 64px;
 
 	@include bp('md') {
-		padding: $mobile-pad;
+		padding: 48px 20px;
 	}
 }
 
@@ -131,10 +131,14 @@
 		font-size: 420px;
 		text-align: center;
 		width: 100%;
-		color: $gray-300;
+		color: $gray-200;
 		top: 50%;
 		transform: translateY(-50%);
 		z-index: -1;
+
+		@include bp('md') {
+			font-size: 320px;
+		}
 	}
  }
 
@@ -148,6 +152,11 @@
 	margin-bottom: 4rem;
 	font-size: 44px;
 	text-align: left;
+
+	@include bp('md') {
+		font-size: 34px;
+		margin-bottom: 2rem;
+	}
 }
 
 .home__usp-subheader {
@@ -168,7 +177,7 @@
 	background-repeat: repeat;
 
 	@include bp('md') {
-		padding: $mobile-pad;
+		padding: 48px 20px 20px;
 	}
 }
 

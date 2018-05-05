@@ -93,7 +93,7 @@
 		<div class="express__editions__container">
 
 			<div class="express__box">
-				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/result.png" alt="" data-plugin="defer-img-load" data-src="/img/solutions/express-viz.gif" alt="">
+				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-plugin="defer-img-load" data-src="/img/solutions/express-viz.gif" alt="">
 				<div class="express__box__title">
 					Visualization Edition
 				</div>
@@ -103,7 +103,7 @@
 			</div>
 
 			<div>
-				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/result.png" alt="" data-plugin="defer-img-load" data-src="/img/solutions/express-dev.jpg" alt="">
+				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-plugin="defer-img-load" data-src="/img/solutions/express-dev.jpg" alt="">
 				<div class="express__box__title">
 					Developer Edition
 				</div>
@@ -113,7 +113,7 @@
 			</div>
 
 			<div>
-				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/result.png" alt="" data-plugin="defer-img-load" data-src="/img/solutions/express-multi.jpg" alt="">
+				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-plugin="defer-img-load" data-src="/img/solutions/express-multi.jpg" alt="">
 				<div class="express__box__title">
 					Multipipe Edition
 				</div>
@@ -123,7 +123,7 @@
 			</div>
 
 			<div>
-				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/img/result.png" alt="" data-plugin="defer-img-load" data-src="/img/solutions/express-parallel.jpg" alt="">
+				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" data-plugin="defer-img-load" data-src="/img/solutions/express-parallel.jpg" alt="">
 				<div class="express__box__title">
 					Parallel Edition
 				</div>

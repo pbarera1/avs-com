@@ -22,7 +22,7 @@
 					render('/components/btn/btn.php', [
 						'text' => 'Request Demo',
 						'link' => '/forms',
-						'modifier' => 'btn--m-left',
+						'modifier' => 'btn--m-left btn--m-top',
 					]);
 				} ?>
 			</li>

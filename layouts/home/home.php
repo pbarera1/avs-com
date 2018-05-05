@@ -14,7 +14,7 @@
 
 			<?php render('/components/btn/btn.php', [
 				'text' => 'Discover How',
-				'link' => '#contact-form'
+				'link' => '/solutions'
 			]); ?>
 
 		</div>
@@ -65,8 +65,8 @@
 
 		<?php render('/components/btn/btn.php', [
 			'text' => 'Learn More',
-			'link' => '#contact-form',
-			'modifier' => 'btn--wide'
+			'link' => '/forms',
+			'modifier' => 'btn--wide btn--no-m-mobile'
 		]); ?>
 
 	</div>

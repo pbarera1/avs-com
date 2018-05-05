@@ -93,6 +93,8 @@ rewrite ^/solutions/express/*$ https://$server_name/solutions/express/ permanent
 rewrite ^/solutions/openviz/*$ https://$server_name/solutions/openviz/ permanent;
 # anything in resources folder to home
 rewrite ^/resources/*$ https://$server_name/ permanent;
+# anything in /overview/ folder to home
+rewrite ^/overview/*$ https://$server_name/ permanent;
 
 https://bjornjohansen.no/nginx-redirect
 rewrite ^/support/*$ https://$server_name/$1/$2 permanent;
@@ -100,5 +102,4 @@ rewrite ^/support/*$ https://$server_name/$1/$2 permanent;
 #avs
 - compress images & defer with intersection observer, shitty hero until window.load
 - enable http and ssl, redirects
-- 404 page
-- favicon
+- 404 page https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-to-use-custom-error-pages-on-ubuntu-14-04

@@ -62,12 +62,28 @@
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-1.gif" alt="">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-1.png" alt="">
 							<div>Slide 1</div>
 						</div>
 						<div class="swiper-slide">
-							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-2.gif" alt="">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-2.png" alt="">
 							<div>Slide 2</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-3.png" alt="">
+							<div>Slide 3</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-4.png" alt="">
+							<div>Slide 4</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-5.png" alt="">
+							<div>Slide 5</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-6.png" alt="">
+							<div>Slide 6</div>
 						</div>
 					</div>
 					<!-- Add Pagination -->
@@ -98,11 +114,27 @@
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-1.png" alt="">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-1.gif" alt="">
 							<div>Slide 1</div>
 						</div>
 						<div class="swiper-slide">
-							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-2.png" alt="">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-2.gif" alt="">
+							<div>Slide 2</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-3.gif" alt="">
+							<div>Slide 1</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-4.gif" alt="">
+							<div>Slide 2</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-5.gif" alt="">
+							<div>Slide 1</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-6.gif" alt="">
 							<div>Slide 2</div>
 						</div>
 					</div>

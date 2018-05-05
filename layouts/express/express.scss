@@ -63,6 +63,7 @@
 	@include bp('md') {
 		padding: 16px;
 		margin: 32px 20px 0;
+		font-size: 22px;
 	}
 }
 
@@ -109,6 +110,10 @@
 .express__list {
 	list-style: none;
 	padding: 0 0 25px 25px;
+
+	@include bp('md') {
+		padding: 0 0 25px 15px;
+	}
 
 	li {
 		padding-left: 22px;

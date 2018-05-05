@@ -75,12 +75,13 @@
 
 	&:last-child {
 		border-right: none;
+		border-bottom: none;
 	}
 
 	@include bp('md') {
 		border-bottom: 1px dotted #999;
 		border-right: none;
-		padding-bottom: 8px;
+		padding: 6px 0;
 	}
 }
 

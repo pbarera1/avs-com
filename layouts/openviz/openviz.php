@@ -10,163 +10,191 @@
 					OpenViz
 				</h1>
 
-				<p>
-					AVS has a two-decade reputation of creating innovative data visualization software products that have been used by over 2,000 ISV, enterprise and institutional clients to accelerate and improve decisions for nearly 10 million end users.
-				</p>
+				<div class="openviz__hero__subtitle">
+					Integrate disparate data formats intelligently on-the-fly
+				</div>
 
 				<p>
-					OpenViz is the centerpiece of the AVS strategy to empower product managers, software developers and solution designers to conceive and deploy game-changing interactive data visualizations for every industry.
+					Convert your data into highly interactive insights
 				</p>
 
 				<?php render('/components/btn/btn.php', [
 					'text' => 'Learn More',
-					'link' => '/forms'
+					'link' => '/forms',
+					'modifier' => 'c-btn--o-dark'
 				]); ?>
 
 			</div>
-
-			<!--<img class="openviz__hero__image" src="http://www.avs.com/wp-content/uploads/2013/05/Enterprise-Network-Visualization-ov-slider.png" alt="">-->
 
 		</div>
 
 	</div>
 
-	<div class="openviz__overview">
+	<div class="openviz__history">
 
-		<div class="openviz__overview__container">
+		<div class="openviz__container">
 
-			<div class="openviz__overview__first">
+			<h2>
+				What is OpenViz?
+			</h2>
 
-				<h2>
-					Data before visualization
-				</h2>
+			<p>A multifunctional API designed for ISVs & OEMs that works as a digital visualization canvas. It enables statistical and computational data management functions to synchronize your business processes.</p>
 
-				<p>The OpenViz API consists of a flexible data management pipeline that feeds many millions of in-memory data points into a high performance rendering engine for scalable graphics generation.</p>
+			<p>OpenViz has served hundreds of ISVs and benefited tens of millions of end users. A solution developed with OpenViz is evolutionary and grows with your needs by assisting your legacy systems.</p>
 
-				<p>The pipeline is an effective way to capture a large query and/or build a sizable array of disparate values from any combination of static or real-time inputs and frees an application from being dependent on highly aggregated or pre-calculated data strings that are the only connection between data and a visualization.</p>
-
-				<p>A large selection of OpenViz components enable a variety of statistical, computational and data management functions that radically innovate the range options available to a product team seeking to synchronize a proprietary business process, algorithm or workflow with interactive components of a user interface.</p>
-
-				<p>Each time that an end user interacts with an application through a server-side AJAX (or Java or .NET client-side) element such as a slider, gesture, region selector or click-to-drill action, the OpenViz data management pipeline responds with a dynamic generation of refreshed in-memory values that are pushed to the OpenViz graphics renderer.</p>
-
-			</div>
-
-			<div class="openviz__overview__second">
-
-				<h2>
-					Think outside the chart
-				</h2>
-
-				<p>For many ISV and OEM product teams, some of the biggest barriers to developing an innovative data visualization strategy have been the limits imposed by off-the-shelf charting packages.</p>
-
-				<p>Advanced annotation, axis layout, conditional trendlines, rule-based transparencies, dynamic chart-in-chart tooltips, internationalization and icon-based legends are just a few of the impossibilities with most unsophisticated charting packages that aren’t pure data visualization systems.</p>
-
-				<p>The OpenViz API was created specifically for use by ISV and OEM teams committed to differentiating their value proposition with highly effective visualization features that accent the underlying data and eclipse the generic look and feel of commodity charts.</p>
-
-				<p>As data becomes larger and more complex the need to embrace non-traditional methods of visualization is essential for any long-term product strategy. Switching graphics platforms or vendors every few release cycles is impractical and inefficient. OpenViz has a ten-year release history of providing distinctive user experience to many types of OEM clients.</p>
-
-			</div>
+			<p>OpenViz changes the way you interpret and interact with data!</p>
 
 		</div>
 
-		<?php render('/components/btn/btn.php', [
-			'text' => 'Learn More',
-			'link' => '/forms',
-			'modifier' => 'btn--wide'
-		]); ?>
+		<img class="openviz__logos" src="/img/solutions/logos-2.png" alt="">
 
-		<img class="openviz__divider" src="/img/solutions/openviz-divider.png" alt="">
+	</div>
+
+	<div class="openviz__do">
+
+		<div class="openviz__do__container">
+
+			<h2>
+				What can you do with OpenViz?
+			</h2>
+
+			<ul class="openviz__list">
+				<li>
+					<div>
+						<img src="/img/solutions/do-1.png" alt="">
+					</div>
+					Transform Business Data into Visual Intelligence
+				</li>
+				<li>
+					<div>
+						<img src="/img/solutions/do-2.png" alt="">
+					</div>
+					Process Volumes of Complex Data
+				</li>
+				<li>
+					<div>
+						<img src="/img/solutions/do-3.png" alt="">
+					</div>
+					Real Time Interpretation for Better Decisions
+				</li>
+				<li>
+					<div>
+						<img src="/img/solutions/do-4.png" alt="">
+					</div>
+					Interactive 2D & 3D Graphs & Charts
+				</li>
+				<li>
+					<div>
+						<img src="/img/solutions/do-5.png" alt="">
+					</div>
+					Think Outside the Dashboard
+				</li>
+			</ul>
+
+			<?php render('/components/btn/btn.php', [
+				'text' => 'Learn More',
+				'link' => '/forms',
+				'modifier' => 'btn--wide'
+			]); ?>
+
+		</div>
 
 	</div>
 
 	<div class="openviz__copy">
 
 		<h2 class="openviz__copy__title">
-			Product Overview
+			Interact with data & get accelerated decisions
 		</h2>
 
 		<div class="openviz__copy__container">
 
-			<h3>
-				Flexible API
-			</h3>
-			<p>OpenViz is a powerful API that provides fine-grain access to a rich set of features and enables the development of proprietary data visualizations to any specification. OpenViz allows software makers to create unique look-and-feel properties for any data visualization and seamlessly weave them into long lifecycle multi-product strategies.</p>
-
-			<h3>
-				Built-in analytics
-			</h3>
-
-			<p>Utilize a selection of built-in standard analytics procedures or incorporate proprietary models and formulas. Highly interactive features such as filtering, sampling and thresholding distinguish OpenViz from static data visualization tools and support pre/post-processed data and offload burdensome tasks from other systems.</p>
-
-			<img src="/img/solutions/annotate.png" alt="">
-			<div class="openviz__caption">
-				Annotate charts and graphs with on-the-fly analytics
+			<div class="openviz__copy__card">
+				<h3>
+					In Memory Processing
+				</h3>
+				<p>OpenViz is capable of taming extreme data formats, can slice and dice data across, and provide you extreme performance agility. You can send large and complex data queries to conventional memory where sophisticated algorithms and application processes will function without any other support system.</p>
 			</div>
 
-			<h3>
-				Server, Cloud or Desktop
-			</h3>
+			<div class="openviz__copy__card">
+				<h3>
+					Built-in analytics
+				</h3>
 
-			<p>OpenViz offers a wide range of browser and desktop deployment options that support multi-platform requirements at leading ISVs and enterprises. One application can easily support multiple modes of deployment and thousands of simultaneous logins—all from a common code base.</p>
-
-			<h3>
-				Real time rendering
-			</h3>
-
-			<p>Whether a solution demands up-to-the-second or up-to-the-hour data updating, OpenViz processes and visualizes real-time data to any specification. The OpenViz API permits multiple data streams to be easily manipulated and visualized for deployment on all contemporary platforms and devices.</p>
-
-			<img src="/img/solutions/ipad.png" alt="">
-			<div class="openviz__caption">
-				Publish to iPad, iPhone, Blackberry, Windows Mobile
+				<p>OpenViz provides you with dynamic visualization. You can use highly interactive features like sampling, filtering, and thresholding that supports pre- & post-processed data. Thus, offloading burdensome tasks from other systems. Make the most of your data.</p>
 			</div>
 
-			<h3>
-				Hundreds of techniques
-			</h3>
-
-			<p>OpenViz is a collection of controls and classes that provide data access, data manipulation, data visualization and data management. Techniques are easily combined to create distinctive and highly interactive visualizations. From a library of 100+ techniques it is possible to create extremely rich visual “scenes” that do much more than just present data—they manage the entire end-to-end user experience for all types of solutions.</p>
-
-			<h3>
-				Advanced interactivity
-			</h3>
-
-			<p>Interactivity to OpenViz means much more than mouse-clicks and slider-drags. Every OpenViz graphic is a representation of live data that can be exploited and re-rendered on-the-fly based on a wide range of user interactions. OpenViz lets the data do the talking through a versatile set of interactive techniques that users quickly embrace. The “live data” approach of OpenViz makes applications soar in popularity, performance and effectiveness.</p>
-
-			<img src="/img/solutions/green.png" alt="">
-			<div class="openviz__caption">
-				Create 2D, 2.5D or 3D images that can be embedded in any Java or Microsoft application
+			<div class="openviz__copy__card">
+				<img src="/img/solutions/annotate.png" alt="">
+				<div class="openviz__caption">
+					Annotate charts and graphs with on-the-fly analytics
+				</div>
 			</div>
 
-			<h3>
-				Ultra-high performance
-			</h3>
+			<div class="openviz__copy__card">
+				<h3>
+					Any platform, Any browser, Any device
+				</h3>
 
-			<p>OpenViz reads data faster, calculates faster and renders faster than any other BI data visualization system. This, in turn, makes applications run faster and dramatically improves user experience. Speed counts in today’s demanding application marketplace and OpenViz provides unsurpassed performance in all areas of commercial software development.</p>
+				<p>OpenViz offers a range of desktop & browser deployment options. It supports multi-platform requirements by enterprises. You can use it on a desktop, display on a screen, or a mobile or tablet device. Ergo, you get multiple views & deployment modes via a common code base.</p>
+			</div>
 
-			<h3>
-				In-memory processing
-			</h3>
-			<p>Send large and complex data queries and streams to conventional memory where users can undertake sophisticated algorithmic and application processes without support from any other system. OpenViz is capable of processing extremely demanding, mission-critical simulation and predictive models with exceptional performance and agility.</p>
+			<div class="openviz__copy__card">
+				<img src="/img/solutions/ipad.png" alt="">
+				<div class="openviz__caption">
+					Publish to iPad, iPhone, Blackberry, Windows Mobile
+				</div>
+			</div>
 
-			<h3>
-				Large/complex datasets
-			</h3>
+			<div class="openviz__copy__card">
+				<h3>
+					Real Time Rendering and Ultra High Performance
+				</h3>
 
-			<p>AVS designed OpenViz to embrace file sizes that make most APIs grind to a halt. Whether session data is desktop-, cloud- or server-based, OpenViz ingests files of substantial complexity and size into its proprietary and scalable memory manager and actually improves application performance by eliminating round-trips to source data.</p>
+				<p>Real time is different for every organization and OpenViz performs accordingly. Whether you need updating to the minute or to an hour, OpenViz does it all. The API allows multiple data streams that can be easily manipulated and visualized for fast deployment.</p>
+			</div>
 
-			<h3>
-				Any data format or model
-			</h3>
+			<div class="openviz__copy__card">
+				<h3>
+					Hundreds of techniques
+				</h3>
 
-			<p>OpenViz exploits any type of data or data model, either directly from table/cube/warehouse, as dynamic streams or as in-memory variables. This flexibility allows disparate data formats to be intelligently integrated on the fly and instantly converted into highly interactive graphics for web or desktop deployment.</p>
+				<p>With OpenViz, you can manipulate data for visualization and management. This gives you extensive control to create distinctive and highly interactive visualizations. Access data, interact with it, choose your visualization, interpret, iterate, and manage all the data functions simultaneously.</p>
+			</div>
 
-			<h3>
-				Java/Microsoft
-			</h3>
+			<div class="openviz__copy__card">
+				<h3>
+					Advanced interactivity
+				</h3>
 
-			<p>Regardless of your development or deployment environment, OpenViz fully serves the needs of every constituent in the software development supply chain. OpenViz supports all editions of Java and Microsoft .NET/Active X/COM to create a robust data visualization toolset for any and every application requirement.</p>
+				<p>Interactivity to OpenViz means much more than mouse-clicks and slider-drags. Every OpenViz graphic is a representation of live data that can be exploited and re-rendered on-the-fly based on a wide range of user interactions. OpenViz lets the data do the talking through a versatile set of interactive techniques that users quickly embrace. The “live data” approach of OpenViz makes applications soar in popularity, performance and effectiveness.</p>
+			</div>
+
+			<div class="openviz__copy__card">
+				<h3>
+					Flexible API
+				</h3>
+
+				<p>You can integrate OpenViz with any other application. You can use it for 10 users to 10 million users and deploy into your current system flow for complete business intelligence. We are not an off-the-shelf package with a limited set of solutions. The complete customization fits in the agile structure and lets you iterate on the go.</p>
+			</div>
+
+			<div class="openviz__copy__card">
+				<h3>
+					Java/Microsoft/Web
+				</h3>
+				<p>Regardless of your development or deployment environment, OpenViz fully serves the needs of every constituent in the software development supply chain. It supports all editions of Java and Microsoft .NET/COM to create a robust data visualization toolset for any and every application. Deploy easily to the web or mobile device using SVG, Image/Imagemaps, or WebGL.</p>
+			</div>
+
+			<div class="openviz__copy__card">
+				<img src="/img/solutions/green.png" alt="">
+				<div class="openviz__caption">
+					Create 2D, 2.5D or 3D images that can be embedded in any Java or Microsoft application
+				</div>
+			</div>
 
 		</div>
+
+		<!--<img class="openviz__divider" src="/img/solutions/openviz-divider.png" alt="">-->
 
 	</div>
 
