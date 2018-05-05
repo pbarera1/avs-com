@@ -3,7 +3,7 @@
 	background: linear-gradient(to top, $blue-10 , $blue-5);
 	padding: 64px 16px 32px;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	align-items: center;
 	position: relative;
 
@@ -32,6 +32,10 @@
 	border-radius: 3px;
 	background: transparent;
 	align-items: stretch;
+
+	@include bp('md') {
+		padding: 32px 0;
+	}
 
 	&:before {
 		display: none;

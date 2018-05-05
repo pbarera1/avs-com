@@ -53,7 +53,7 @@
 					</div>
 
 					<?php render('/components/btn/btn.php', [
-						'text' => 'Discover How',
+						'text' => 'Learn More',
 						'link' => '/solutions/openviz'
 					]); ?>
 
@@ -160,7 +160,7 @@
 					</div>
 
 					<?php render('/components/btn/btn.php', [
-						'text' => 'Discover How',
+						'text' => 'Learn More',
 						'link' => '/solutions/express'
 					]); ?>
 
@@ -191,8 +191,8 @@
 			</div>
 
 			<?php render('/components/btn/btn.php', [
-				'text' => 'Discover How',
-				'link' => '#contact-form'
+				'text' => 'Learn More',
+				'link' => '/forms'
 			]); ?>
 
 		</div>

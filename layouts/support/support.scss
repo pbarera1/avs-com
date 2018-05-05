@@ -28,6 +28,7 @@
 .support__tagline {
 	font-size: 22px;
 	color: $blue-1;
+	padding: 0 16px;
 }
 
 .wave {
@@ -199,6 +200,7 @@
 	border: 1px solid #ccc;
 	border-top: none;
 	background-color: #fff;
+	overflow-x: scroll;
 }
 
 .tabcontent {

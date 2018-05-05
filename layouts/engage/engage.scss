@@ -3,12 +3,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 102px 16px;
+	padding: 102px 20px;
 
 	h2 {
 		color: #fff;
 		text-align: center;
-		margin-bottom: 0;
+		margin-bottom: 1rem;
 	}
 }
 
@@ -26,6 +26,7 @@
 	margin: 40px auto 10px;
 	display: block;
 	max-width: 320px;
+	width: 100%;
 }
 
 .engage__img__container {
