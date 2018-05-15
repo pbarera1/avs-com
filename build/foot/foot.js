@@ -8,7 +8,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 	var images = document.querySelectorAll('[data-plugin="defer-img-load"]');
 	var config = {
 		// If the image gets within 300px in the Y axis, start the download.
-		rootMargin: '300px 300px',
+		rootMargin: '300px 0px',
 		threshold: 0.01
 	};
 

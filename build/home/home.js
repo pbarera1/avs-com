@@ -9,7 +9,9 @@
 	var img = new Image();
 	img.src = hero.getAttribute('data-src');
 
-	img.addEventListener("load", function () {
-		hero.style.backgroundImage = 'url(\'' + img.src + '\')';
+	window.addEventListener("load", function () {
+		img.addEventListener("load", function () {
+			hero.style.backgroundImage = 'url(\'' + img.src + '\')';
+		});
 	});
 })();

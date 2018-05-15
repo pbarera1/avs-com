@@ -100,5 +100,6 @@ https://bjornjohansen.no/nginx-redirect
 rewrite ^/support/*$ https://$server_name/$1/$2 permanent;
 
 #avs
+- move hero after window.load
 - enable http and ssl, redirects
 - 404 page https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-to-use-custom-error-pages-on-ubuntu-14-04

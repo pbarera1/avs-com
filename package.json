@@ -16,7 +16,7 @@
     "serve": "browser-sync start --proxy 'localhost:8000' --serveStatic './' --files '*.php build/*.css, build/js/*.js' --index './index.php'",
     "uglify": "uglifyjs build/**/*.js -o main.js",
     "autoprefixer": "postcss [map: false] -u autoprefixer -r build/main.css",
-    "build:css": "node-sass components/main.scss build/main.css && npm run autoprefixer && cp build/main.css main.css",
+    "build:css": "node-sass --omit-source-map-url --output-style compressed components/main.scss build/main.css && npm run autoprefixer && cp build/main.css main.css",
     "watch:css": "onchange 'components/**/*.scss' 'layouts/**/*.scss' -- npm run build:css",
     "build:js": "npm run es6 && npm run uglify",
     "watch:js": "onchange 'components/**/*.js' 'layouts/**/*.js' -- npm run build:js",
