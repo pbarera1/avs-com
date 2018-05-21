@@ -95,6 +95,8 @@ rewrite ^/solutions/openviz/*$ https://$server_name/solutions/openviz/ permanent
 rewrite ^/resources/*$ https://$server_name/ permanent;
 # anything in /overview/ folder to home
 rewrite ^/overview/*$ https://$server_name/ permanent;
+# /solutions/ folder to offerings
+rewrite ^/solutions/$ https://$server_name/offerings/ permanent;
 
 https://bjornjohansen.no/nginx-redirect
 rewrite ^/support/*$ https://$server_name/$1/$2 permanent;

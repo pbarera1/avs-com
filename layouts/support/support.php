@@ -18,6 +18,8 @@
 
 		<div class="support__portal__container">
 
+			<img src="/img/support-portal.png" alt="" class="support__portal-img">
+
 			<div class="support__portal__container-text">
 
 				<h2 class="support__portal__title">
@@ -33,25 +35,7 @@
 					'link' => 'https://avsdev.atlassian.net/servicedesk/customer/portal/1',
 				]); ?>
 
-				<div class="support__passwords">
-
-					<h3>
-						Password Requirements
-					</h3>
-
-					<ul>
-						<li>Avoid patterns, consecutive letters (either alphabetical or on the keyboard) and numbers</li>
-						<li>Avoid replacing letters with similar numbers or symbols (example 3 for e or $ for s)</li>
-						<li>Avoid short passwords.</li>
-						<li>Do use a password manager to generate long/random passwords</li>
-						<li>Do use lots of ‘parts’ to your password, which can make it hard to crack and easier to remember. Four unrelated english words is very strong (correcthorsebatterystaple), as is a combination of words and random numbers (tape934elephant%*)</li>
-					</ul>
-
-				</div>
-
 			</div>
-
-			<img src="/img/support-portal.png" alt="" class="support__portal-img">
 
 		</div>
 

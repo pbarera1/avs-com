@@ -35,7 +35,7 @@
 			<img src="/img/customer-logos.png" alt="" class="engage__image">
 
 			<div class="engage__clients">
-				Providing Trusted Solutions to Fortune 500 Companies
+				Providing Trusted Offerings to Fortune 500 Companies
 			</div>
 
 		</div>

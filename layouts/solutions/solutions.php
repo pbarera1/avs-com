@@ -5,7 +5,7 @@
 		<div class="solutions__hero__container">
 
 			<div class="solutions__hero__title">
-				AVS Solutions
+				AVS Offerings
 			</div>
 
 			<div class="solutions__hero__subtitle">
@@ -15,15 +15,15 @@
 			<div class="solutions__hero__btns">
 
 				<?php render('/components/btn/btn.php', [
-					'text' => 'Solutions',
-					'link' => '#engineering',
-					'modifier' => 'c-btn--solutions',
+					'text' => 'Products',
+					'link' => '#products',
+					'modifier' => 'c-btn--products',
 				]); ?>
 
 				<?php render('/components/btn/btn.php', [
-					'text' => 'Products',
-					'link' => '#products',
-				'modifier' => 'c-btn--products',
+					'text' => 'Solutions',
+					'link' => '#engineering',
+					'modifier' => 'c-btn--solutions',
 				]); ?>
 
 			</div>
@@ -54,7 +54,7 @@
 
 					<?php render('/components/btn/btn.php', [
 						'text' => 'Learn More',
-						'link' => '/solutions/openviz'
+						'link' => '/offerings/openviz'
 					]); ?>
 
 				</div>
@@ -63,27 +63,27 @@
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-1.png" alt="">
-							<div>Slide 1</div>
+							<div>3D Network Visualization: Using machine learning and alerts to monitor outages across many layers in an IT Network containing multiple business owners</div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-2.png" alt="">
-							<div>Slide 2</div>
+							<div>High Resolution Graphics: Using a true 3D renderer for executive presentation using spatial and non-spatial data dimensions.</div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-3.png" alt="">
-							<div>Slide 3</div>
+							<div>Workflow/Business Process: Understanding doctor/patient interactions to improve patient experience and healthcare performance.</div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-4.png" alt="">
-							<div>Slide 4</div>
+							<div>Transactional Big Data: Visualizing credit card holders spending patterns and propensity to buy through targeted marketing and wallet size determination.</div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-5.png" alt="">
-							<div>Slide 5</div>
+							<div></div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/openviz-6.png" alt="">
-							<div>Slide 6</div>
+							<div>Web Keyword Campaign Management: Assessment of 1M+ keywords and decision making metrics to determine best performers based on budget.</div>
 						</div>
 					</div>
 					<!-- Add Pagination -->
@@ -115,27 +115,27 @@
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-1.gif" alt="">
-							<div>Slide 1</div>
+							<div>Wind arrows can be animated and shown at multiple levels. Arrows can also be  made transparent. The terrain can be shown as texture drape or as a simple height color surface.</div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-2.gif" alt="">
-							<div>Slide 2</div>
+							<div>VRMenu consists of two tab panels, allowing the shape of the visualized component to be adjusted via the intensity slider.</div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-3.gif" alt="">
-							<div>Slide 1</div>
+							<div>Finite element model of Mercedes car body computed from NASTRAN. Scalar Von Mises FEA stress results are shown on the unstructured grid. User external faces, isolines and solid contours with thresholding.</div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-4.gif" alt="">
-							<div>Slide 2</div>
+							<div>A 3D surface showing two skyscrapers forms the base area for the demo. The 3D space around the buildings contains wind velocity vector information. The stream-ribbon technique shows the divergence of the wind pattern around one of the buildings.</div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-5.gif" alt="">
-							<div>Slide 1</div>
+							<div>3D Electron Density Ball. This is a 3D field with isosurface, several cut planes with iso-contour lines, and a solid contour surface. Visibility, transparency and isosurface threshold value can be varied.</div>
 						</div>
 						<div class="swiper-slide">
 							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-plugin="defer-img-load" data-src="/img/slider/express-6.gif" alt="">
-							<div>Slide 2</div>
+							<div>A simple 4-molecule network shows how AVS/Express can be used to visualize a molecular strucutre, showing bonds and atom positions.</div>
 						</div>
 					</div>
 					<!-- Add Pagination -->
@@ -161,7 +161,7 @@
 
 					<?php render('/components/btn/btn.php', [
 						'text' => 'Learn More',
-						'link' => '/solutions/express'
+						'link' => '/offerings/express'
 					]); ?>
 
 				</div>

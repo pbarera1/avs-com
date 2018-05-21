@@ -27,7 +27,7 @@ if (! ini_get('date.timezone')) {
 
 				<?php
 				$footer_links = [
-					'Solutions' => '/solutions',
+					'Offerings' => '/offerings',
 					'Support' => '/support',
 					'Contact Us' => '/contact',
 				];

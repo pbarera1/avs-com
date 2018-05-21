@@ -6,7 +6,7 @@ render('/components/head/head.php');
 
 render('/components/nav/nav.php', [
 	items => [
-		'Solutions' => '/solutions',
+		'Offerings' => '/offerings',
 		'Support' => '/support',
 		'Contact Us' => '/contact',
 	],

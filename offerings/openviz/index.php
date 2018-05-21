@@ -6,13 +6,13 @@ render('/components/head/head.php');
 
 render('/components/nav/nav.php', [
 	items => [
-		'Solutions' => '/solutions',
+		'Offerings' => '/offerings',
 		'Support' => '/support',
 		'Contact Us' => '/contact',
 	],
 ]);
 
-render('/layouts/express/express.php');
+render('/layouts/openviz/openviz.php');
 
 render('/components/shortform/shortform.php', [
 	'form_fields' => [

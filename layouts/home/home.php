@@ -14,7 +14,7 @@
 
 			<?php render('/components/btn/btn.php', [
 				'text' => 'Discover How',
-				'link' => '/solutions'
+				'link' => '/offerings'
 			]); ?>
 
 		</div>
@@ -22,6 +22,10 @@
 	</div>
 
 	<div class="home__usp">
+
+		<h2 class="home__usp-title">
+			Best of Both Worlds
+		</h2>
 
 		<div class="home__usp-container">
 
@@ -31,32 +35,35 @@
 
 			<div class="home__usp-half">
 
-				<h2 class="home__usp-title">
-					Best of Both Worlds
-				</h2>
-
 				<div class="home__usp-subheader">
-					Integrate with your existing solutions extracting the best information from each.
+					Data Management
 				</div>
 
 				<p class="home__usp-text">
-					AVS solutions enable you to integrate data from many different sources through an in-memory process that enables full data exploration. We can ingest any data from any system at high speed and correlate information ﻿in﻿ real time. Our solutions are agnostic to data, agnostic to platform, and agnostic to format. As a result, we can integrate the most important information from all your existing solutions into a powerful daily use application that delivers critical decision-making insight in real time.
+					<strong>
+						Integrate with your existing solutions extracting the best information from each.
+					</strong>
+
+					AVS solutions enable you to integrate data from many different sources through an in-memory process that enables full data exploration. We can ingest any data from any system at high speed and correlate information ﻿in﻿ real time.
+					<br/><br/>
+					Our solutions are agnostic to data, agnostic to platform, and agnostic to format. As a result, we can integrate the most important information from all your existing solutions into a powerful daily use application that delivers critical decision-making insight in real time.
 				</p>
 
 			</div>
 
 			<div class="home__usp-half">
 
-				<h2 class="home__usp-title">
-					Data Management
-				</h2>
-
 				<div class="home__usp-subheader">
-					Deliver powerful insight to anyone, anywhere
+					Data Presentation
 				</div>
 
 				<p class="home__usp-text">
-					Define your own business rules, develop and integrate your own models and algorithms, and present your results with your own corporate branding. Our technology allows you to create many views of your data to cater to the workflow of many different groups and departments; from mission critical operators to analysts to executives. And most importantly, you can deliver your results securely to any device, anywhere in the world; we support all deployments in every locale.
+					<strong>
+						Deliver powerful insight to anyone, anywhere.
+					</strong>
+					Define your own business rules, develop and integrate your own models and algorithms, and present your results with your own corporate branding.
+					<br/><br/>
+					Our technology allows you to create many views of your data to cater to the workflow of many different groups and departments; from mission critical operators to analysts to executives. And most importantly, you can deliver your results securely to any device, anywhere in the world; we support all deployments in every locale.
 				</p>
 
 			</div>
